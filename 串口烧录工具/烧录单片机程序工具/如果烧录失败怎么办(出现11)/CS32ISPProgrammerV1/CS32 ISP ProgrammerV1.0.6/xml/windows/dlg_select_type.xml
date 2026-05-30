@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dlg name="dlg_select_type" title="[SELECT_DEVICE]" width="628" height="320" appwin="1" resize=""
+	translucent="255" frame="" crbk="000000"
+	img-shadow="skins\default\winback_shadow.png" shadow-wlt="36" shadow-hlt="34" shadow-wrb="36" shadow-hrb="35">
+	
+	<base>
+		<imgbtn name="button.close" pos="-45,0,-0,29" skin="IDB_BT_CLOSE" show="1"/>
+		<text name="title" crtext="FFFFFF" crmark="800000" font="big"
+				pos="10,4,200,25" title="[SELECT_DEVICE]" response="0" show="1" />
+	</base>
+    
+	<body>
+		<area pos="1,26,-1,-41" color="FFFFFF"  begin-transparent="0" end-transparent="0"/>
+        <text pos="4,36,-1,60" name="title" crtext="0" title="[SELECT_DEVICE_TYPE]" response="0" show="1" />
+        <combobox name="typesComb" pos="86,30,360,58" skin="IDB_EDIT" small-image="skin:IDB_DROP_DOWN"  img-scroll="skin:IDB_SCROLL_V"
+				readonly="1" >      
+		</combobox>
+        <area pos="364,61,-6,-43" color="808080"  begin-transparent="0" end-transparent="0"/>     
+        <webbrowser name="descEdit" pos="365,62,-7,-44" 
+            delaycreate="true"
+            transparent="0"
+            url=""
+            show-contextmenu="0" >
+        </webbrowser>     
+        <nativewnd name="devtreewindow" pos="4,61,360,-43" />              
+		<area pos="1,-40,-1,-1" color="FFFFFF"  begin-transparent="60" end-transparent="80"/>
+		<button name="buttonok" skin="IDB_BT_DEFAULT" title="[OK]"	pos="-190,-36,-110,-6" showfocus="0" show="1" />
+		<button name="button.cancel" skin="IDB_BT_DEFAULT" title="[CANCEL]"	pos="-100,-36,-20,-6" showfocus="0" show="1" />	
+	</body>
+  
+</dlg>

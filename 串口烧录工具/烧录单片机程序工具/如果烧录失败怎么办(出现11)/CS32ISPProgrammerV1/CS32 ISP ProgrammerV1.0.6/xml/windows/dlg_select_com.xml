@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dlg name="dlg_select_com" title="[SELECT_SERIAL_PORT]" width="240" height="225" appwin="1" resize="0"
+	translucent="255" frame="" crbk="000000"
+	img-shadow="skins\default\winback_shadow.png" shadow-wlt="36" shadow-hlt="34" shadow-wrb="36" shadow-hrb="35">
+	
+	<base>
+		<imgbtn name="button.close" pos="-45,0,-0,29" skin="IDB_BT_CLOSE" show="1"/>
+		<text name="title" crtext="FFFFFF" crmark="800000" font="big"
+				pos="10,4,200,25" title="[SELECT_SERIAL_PORT]" response="0" show="1" />
+	</base>
+    
+	<body>
+		<area pos="1,26,-1,-41" color="FFFFFF"  begin-transparent="0" end-transparent="0"/>
+        <text pos="4,36,58,60" name="title" crtext="0" title="[SELECT_PORT]" response="0" show="1" align="right" />        
+        <combobox name="SerialComb" pos="60,30,230,60" skin="IDB_EDIT" small-image="skin:IDB_DROP_DOWN"  img-scroll="skin:IDB_SCROLL_V" />
+        
+        <text pos="4,66,58,90" name="title" crtext="0" title="[SELECT_PORT_BAUDRATE]" response="0" show="1" align="right" />
+        <combobox name="BaudrateComb" pos="60,60,230,90" skin="IDB_EDIT" small-image="skin:IDB_DROP_DOWN"  img-scroll="skin:IDB_SCROLL_V" readonly="1" value="115200" >
+            <item name="1200" value="1200" />
+            <item name="2400" value="2400" />
+            <item name="4800" value="4800" />
+            <item name="9600" value="9600" />
+            <item name="38400" value="38400" />
+            <item name="57600" value="57600" />
+            <item name="115200" value="115200" />
+            <item name="230400" value="230400" />
+		</combobox>
+        
+        <text pos="4,96,58,120" name="title" crtext="0" title="[SELECT_PORT_DATABIT]" response="0" show="1" align="right" />
+        <combobox name="DatabitComb" pos="60,90,230,120" skin="IDB_EDIT" small-image="skin:IDB_DROP_DOWN"  img-scroll="skin:IDB_SCROLL_V" readonly="1" value="8" >
+            <item name="5" value="5" />
+            <item name="6" value="6" />
+            <item name="7" value="7" />
+            <item name="8" value="8" />
+		</combobox>
+        
+        <text pos="4,126,58,150" name="title" crtext="0" title="[SELECT_PORT_PARITY]" response="0" show="1" align="right" />
+        <combobox name="ParityComb" pos="60,120,230,150" skin="IDB_EDIT" small-image="skin:IDB_DROP_DOWN"  img-scroll="skin:IDB_SCROLL_V" readonly="1" value="2" >
+            <item name="[None]" value="0" />
+            <item name="[Odd]" value="1" />
+            <item name="[Even]" value="2" />
+		</combobox> 
+        
+        <text pos="4,156,58,180" name="title" crtext="0" title="[SELECT_PORT_STOPBIT]" response="0" show="1" align="right" />
+        <combobox name="StopBitComb" pos="60,150,230,180" skin="IDB_EDIT" small-image="skin:IDB_DROP_DOWN"  img-scroll="skin:IDB_SCROLL_V" readonly="1" value="0" >
+            <item name="1" value="0" />
+            <item name="1.5" value="1" />
+            <item name="2" value="2" />        
+		</combobox>   
+        
+		<area pos="1,-40,-1,-1" color="FFFFFF"  begin-transparent="60" end-transparent="80"/>
+		<button name="buttonok" skin="IDB_BT_DEFAULT" title="[OK]"	pos="-190,-36,-110,-6" showfocus="0" show="1" />
+		<button name="button.cancel" skin="IDB_BT_DEFAULT" title="[CANCEL]"	pos="-100,-36,-20,-6" showfocus="0" show="1" />	
+	</body>
+  
+</dlg>

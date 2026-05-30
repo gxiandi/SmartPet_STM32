@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dlg name="dlg_select_com" title="[ExportFile]" width="480" height="300" appwin="1" resize="0"
+	translucent="255" frame="" crbk="000000"
+	img-shadow="skins\default\winback_shadow.png" shadow-wlt="36" shadow-hlt="34" shadow-wrb="36" shadow-hrb="35">
+	
+	<base>
+		<imgbtn name="button.close" pos="-45,0,-0,29" skin="IDB_BT_CLOSE" show="1"/>
+		<text name="title" crtext="FFFFFF" crmark="800000" font="big"
+				pos="10,4,200,25" title="[ExportFile]" response="0" show="1" />
+	</base>
+    
+	<body>
+
+		<area pos="1,26,-1,-41" color="FFFFFF"  begin-transparent="0" end-transparent="0"/> 
+		<chkbtn pos="12,30,100,56" name="BurnSID" skin="IDB_CHECK_BOX" title="烧录滚动码" show="1" />
+		<chkbtn pos="244,30,420,56" name="AutoDown" skin="IDB_CHECK_BOX" title="开启自动烧录" show="1" />
+		
+		<text pos="14,60,110,84" name="SIDAddressText" crtext="0" title="滚动码的地址" response="0" show="1" align="right" /> 
+		<edit pos="110,56,210,80" name="SIDAddress" title="0x1FFFF804" skin="IDB_EDIT" multiline="0" autohscroll="1" autovscroll="0" number="0" maxchar="1024" show="1" />	
+		<text pos="220,60,320,84" name="SIDSizeText" crtext="0" title="滚动码的长度" response="0" show="1" align="right" /> 
+		<combobox name="SIDSize" pos="322,56,420,82" skin="IDB_EDIT" small-image="skin:IDB_DROP_DOWN"  img-scroll="skin:IDB_SCROLL_V" readonly="1" value="0" >
+			<item name="1字节" value="1" />
+			<item name="2字节" value="2" />
+			<item name="4字节" value="4" />
+		</combobox>
+		
+		<text pos="14,86,110,110" name="SIDStartText" crtext="0" title="滚动码起始值" response="0" show="1" align="right" /> 
+		<edit pos="110,82,210,106" name="SIDStart" title="0" skin="IDB_EDIT" multiline="0" autohscroll="1" autovscroll="0" maxchar="1024" show="1" />	
+		<text pos="220,86,320,110" name="SIDStepText" crtext="0" title="滚动码步进值" response="0" show="1" align="right" /> 
+		<edit pos="322,82,420,108" name="SIDStep" title="1" skin="IDB_EDIT" multiline="0" autohscroll="1" autovscroll="0" number="1" maxchar="1024" show="1" />	
+				
+		<chkbtn pos="12,113,114,137" name="BurnLimit" skin="IDB_CHECK_BOX" title="限制次数" show="1" />
+		<edit pos="110,111,210,136" name="LimitCount" title="99999999" skin="IDB_EDIT" multiline="0" autohscroll="1" autovscroll="0" number="1" maxchar="1024" show="1" />	
+		
+		<chkbtn pos="12,140,114,174" name="PCLimit" skin="IDB_CHECK_BOX" title="限制主机" show="1" />
+		<edit pos="110,142,376,168" name="LimitPCID" title="" skin="IDB_EDIT" multiline="0" autohscroll="1" autovscroll="0" number="0" maxchar="1024" show="1" />				
+		<text pos="379,145,-3,168" crtext="0" title="(主机序列号)" response="0" show="1" align="left" /> 
+		
+		
+		<text pos="10,175,110,296" crtext="0" title="本机序列号" response="0" show="1" align="right" /> 
+		<text name="CurrPCID" pos="111,174,375,194" crtext="F00000" crback="E0E0E0" title="xxxxxxxxxxxxxxx" response="0" show="1" align="left"/> 
+		<button name="buttoncopy" pos="380,172,420,196" skin="IDB_BT_DEFAULT" title="[COPYID]" showfocus="0" show="1" />
+
+		<text pos="10,226,80,250" name="ExportCaption" crtext="0" title="导出路径" response="0" show="1" align="right" /> 
+		<edit pos="82,220,-60,246" name="ExportPathEdit" skin="IDB_EDIT" multiline="0" autohscroll="1" autovscroll="0" number="0" readonly="0" maxchar="1024" show="1" />
+		<button pos="-59,218,-23,246" name="ExportSelBtn" skin="IDB_BT_DEFAULT" title="..." show="1" />
+
+		<area pos="1,-40,-1,-1" color="FFFFFF"  begin-transparent="60" end-transparent="80"/>
+		<button name="buttonok" skin="IDB_BT_DEFAULT" title="[Export]"	pos="-190,-36,-110,-6" showfocus="0" show="1" />
+		<button name="buttoncancel" skin="IDB_BT_DEFAULT" title="[CANCEL]"	pos="-100,-36,-20,-6" showfocus="0" show="1" />	
+	</body>
+  
+</dlg>

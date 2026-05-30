@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<dlg name="dlg_msgbox" title="MsgBox" width="400" height="150" frame="" bkimg="" crbk="000000" >
+	
+	<base>
+		<imgbtn name="button.close" pos="-45,0,-0,29" skin="IDB_BT_CLOSE" shortcut="ESC" />
+		<text name="msgbox.title" crtext="FFFFFF" crmark="800000" font="big"
+				pos="10,5,200,25" title="[APP_NAME]" mask="" response="0" show="1" />
+	</base>
+
+	<body>
+		<area name="area-1" pos="0,0,-0,30" begin-transparent="100" end-transparent="80" />
+		<area name="area-2" pos="1,30,-1,-37" begin-transparent="0" end-transparent="0" />
+		<area name="area-3" pos="1,-37,-1,-36" begin-transparent="70" end-transparent="70" />
+		<area name="area-4" pos="1,-36,-1,-1" begin-transparent="40" end-transparent="30" />
+		
+		<img name="msgbox.icon" pos="25,55" width="40" height="40" skin="IDB_ICON_INFO" mode="normal" framesize="0" show="1" />
+		<text name="msgbox.text" crtext="000000" pos="70,65,-25,-40" title="" image="" show="1" />
+		<chkbtn name="msgbox.check" skin="IDB_CHECK_BOX" pos="75,-60,-25,-40" title="" check="true" show="0" />
+		
+		<div name="msgbox.type.0" pos="0,-32,-0,-0" show="1" >
+			<button name="button.ok" skin="IDB_BT_DEFAULT" title="[OK]"	pos="-100,0,-20,28" shortcut="RETURN" />
+		</div>
+		<div name="msgbox.type.1" pos="0,-32,-0,-0" show="0" >
+			<button name="button.ok" skin="IDB_BT_DEFAULT" title="[OK]"	pos="-190,0,-110,28" shortcut="RETURN" />
+			<button name="button.cancel" skin="IDB_BT_DEFAULT" title="[CANCEL]"	pos="-100,0,-20,28" show="1" />
+		</div>
+		<div name="msgbox.type.3" pos="0,-32,-0,-0" show="0" >
+			<button name="button.yes" skin="IDB_BT_DEFAULT" title="[YES]"	pos="-280,0,-200,28" show="1" />
+			<button name="button.no" skin="IDB_BT_DEFAULT" title="[NO]"	pos="-190,0,-110,28" show="1" />
+			<button name="button.cancel" skin="IDB_BT_DEFAULT" title="[CANCEL]"	pos="-100,0,-20,28" shortcut="ESC" />
+		</div>
+		<div name="msgbox.type.4" pos="0,-32,-0,-0" show="0" >
+			<button name="button.yes" skin="IDB_BT_DEFAULT" title="[YES]"	pos="-190,0,-110,28" show="1" />
+			<button name="button.no" skin="IDB_BT_DEFAULT" title="[NO]"	pos="-100,0,-20,28" show="1" />
+		</div>
+
+	</body>
+  
+</dlg>

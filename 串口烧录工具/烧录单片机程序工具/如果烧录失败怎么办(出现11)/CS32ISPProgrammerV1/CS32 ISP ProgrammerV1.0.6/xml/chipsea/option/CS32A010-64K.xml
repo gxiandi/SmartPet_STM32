@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<config version="1" verfiy="1" eraseoption="0" afterrun="0" codefile="" startaddr="0x08000000" autodown="1" downoption="1" burnsid="0" sidaddr="0x08000FF0" sidsize="2" sidstart="0" sidstep="1" limitburn="0" limit="9999" limitpc="0" pcid="" >
+
+<device devid="0x444" type="MCU" cpu="Cortex-M0+/M4" name="CS32F03X" addr="0x08000000" page_count="64" page_size="1024"/>
+
+<option name="Option" caption="Option" addr="0x1FFFF800" size="20">
+	<item name="read_out_protection" caption="Read Out Protection" addr="0x1FFFF800" size="1" descript="Read protection option byte. The read protection is used to protect the software code stored in Flash memory" >
+		<item name="rdp" caption="RDP" list="1" index="0" descript="Level 0: no protection\nLevel 1: read protection of memories\nLevel 2: chip protection">
+			<item name="Level 0" value="170" />
+			<item name="Level 1" value="187" />
+			<item name="Level 2" value="204" />
+		</item>
+	</item>
+	
+	<item name="user_configuration" caption="User Configuration" addr="0x1FFFF802" size="1" >
+		<item name="WDG_SW" caption="WDG_SW" sbit="0" ebit="0" list="1" index="1" descript="">
+			<item name="Hardware watchdog" value="0" />
+			<item name="Software watchdog" value="1" />
+		</item>
+		
+		<item name="nRST_DSM" caption="nRST_DSM" sbit="1" ebit="1" list="1" index="1" descript="Enable :Reset generated when entering Deep Sleep mode\nDisable:No reset generated">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+
+		<item name="nRST_PWD" caption="nRST_PWD" sbit="2" ebit="2" list="1" index="1" descript="Enable :Reset generated when entering Power-Down mode\nDisable:No reset generated">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+
+		<item name="nBOOT" caption="nBOOT" sbit="3" ebit="4" list="1" index="2" descript="nBOOT1:nBOOT0=00 Start from Flash\nnBOOT1:nBOOT0=01 Start from SRAM\nnBOOT1:nBOOT0=11 Start from System">
+			<item name="Start from Flash" value="0" />
+			<item name="Start from SRAM" value="1" />
+			<item name="Start from System" value="3" />
+		</item>
+
+		<item name="High Inner CLock" caption="RAM_PARITY" sbit="7" ebit="7" list="1" index="1" descript="High Inner CLock select">
+			<item name="4M HRC" value="0" />
+			<item name="24M HRC" value="1" />
+		</item>
+	</item>	
+	
+	<item name="user_data" caption="User Data">
+		<item name="Data0" caption="Data0" addr="0x1FFFF804" size="1" value="0xFF" maxlen="4" hex="1" edit="1" index="0" descript="" />
+		<item name="Data1" caption="Data1" addr="0x1FFFF806" size="1" value="0xFF" maxlen="4" hex="1" edit="1" index="0" descript="" />
+	</item>	
+	
+	<item name="write_protection" caption="Write Protection1" addr="0x1FFFF808" size="4">
+		<item name="Page0-Page3" caption="Page0-Page3" sbit="0" ebit="0" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page4-Page7" caption="Page4-Page7" sbit="1" ebit="1" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page8-Page11" caption="Page8-Page11" sbit="2" ebit="2" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page12-Page15" caption="Page12-Page15" sbit="3" ebit="3" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page16-Page19" caption="Page16-Page19" sbit="4" ebit="4" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page20-Page23" caption="Page20-Page23" sbit="5" ebit="5" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page24-Page27" caption="Page24-Page27" sbit="6" ebit="6" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page28-Page31" caption="Page28-Page31" sbit="7" ebit="7" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page32-Page35" caption="Page32-Page35" sbit="16" ebit="16" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page36-Page39" caption="Page36-Page39" sbit="17" ebit="17" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page40-Page43" caption="Page40-Page43" sbit="18" ebit="18" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page44-Page47" caption="Page44-Page47" sbit="19" ebit="19" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page48-Page51" caption="Page48-Page51" sbit="20" ebit="20" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page52-Page55" caption="Page52-Page55" sbit="21" ebit="21" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page56-Page59" caption="Page56-Page59" sbit="22" ebit="22" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+		
+		<item name="Page60-Page63" caption="Page60-Page63" sbit="23" ebit="23" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+	</item>	
+	
+	<item name="write_protection" caption="Write Protection2" addr="0x1FFFF80C" size="1">
+		<item name="WPROTSM" caption="System Write Protect" sbit="0" ebit="0" list="1" index="1" descript="">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+	</item>	
+	
+	<item name="user_configuration1" caption="User Configuration1" addr="0x1FFFF810" size="1">
+		<item name="LVDSEL" caption="Low Voltage Detect" sbit="0" ebit="2" list="1" index="6" descript="Low voltage detect select">
+			<item name="Level 0" value="0" />
+			<item name="Level 1" value="1" />
+			<item name="Level 2" value="2" />
+			<item name="Level 3" value="3" />
+			<item name="Level 4" value="4" />
+			<item name="Level 5" value="5" />
+			<item name="Level 6" value="6" />
+			<item name="Level 7" value="7" />
+		</item>
+		
+		<item name="LVDCFG" caption="Low Voltage Reset/Interrupt" sbit="3" ebit="3" list="1" index="1" descript="Reset or Interrupt generated when Low voltage">
+			<item name="Reset" value="0" />
+			<item name="Interrupt" value="1" />
+		</item>
+		
+		<item name="LVDENB" caption="Low Voltage detection enable" sbit="4" ebit="4" list="1" index="1" descript="Enable or Disable Low Voltage detection">
+			<item name="Enable" value="0" />
+			<item name="Disable" value="1" />
+		</item>
+	</item>
+	
+</option>
+	
+</config>

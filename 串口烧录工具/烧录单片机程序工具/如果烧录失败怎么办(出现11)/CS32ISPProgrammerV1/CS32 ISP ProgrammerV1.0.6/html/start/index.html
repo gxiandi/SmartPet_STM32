@@ -1,0 +1,28 @@
+﻿<html>
+<head>
+<style>
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+ .centeredImage
+    {
+    text-align:center;
+    display:block;
+    }
+</style>
+</head>
+<body>
+<!--img  src="USB-Type-C-and-Power-Delivery.jpg"  height="70" width="320"-->
+<p> <font size="2" >USB Type-C is the new USB-IF standard that solves several challenges faced while using today's Type-A and Type-B cables and connectors. USB Type-C uses a slimmer connector - measuring only 2.4-mm in height - to allow for increasing miniaturization of consumer and industrial products. The USB Type-C standard is gaining rapid support by enabling small form-factor, easy-to-use connectors and cables with the ability to transmit multiple protocols and offer power delivery up to 100 W. offers the Tool?family of USB Type-C controllers with an integrated Type-C transceiver and a programmable ARM?Cortex?M0 core. These controllers help you bring Type-C compliant cables, cables, notebooks, tablets and monitors to market faster.</font></p><p><font size="2" >The Tool Configuration Utility is a Windows application that allows users to configure the parameters of a Type-C device implemented using the Tool?controllers. The tool also allows firmware updates to be flashed onto the controller.</font></p>
+
+
+<img src="blkdiag.jpg" class="centeredImage" height="200" width="528">
+<p><font size="2" >
+The device configuration and firmware update is done by connecting the Type-C controller to the host computer through a USB to I2C bridge device. This bridge along with the Type-C Downstream Facing Port (DFP) controller acts as a USB Type-C Host Bridge that connects Type-C peripherals to the host. The Type-C cable itself is an intelligent Electronically Marked Cable Assembly (EMCA) that embeds up to a pair of Type-C EMCA controllers. The Tool Configuration Utility is capable of configuring the functionality of the EMCA controllers through a set of Vendor Defined CC Messages (VDMs) issued through the Type-C Host Bridge.
+</font></p>
+<p><font size="2">
+As USB Type-C to display dongles do not have any standard USB functionality, a USB Billboard device is used to report the capabilities and status of the dongle to the host. The Tool?Configuration Utility is also capable of doing configuration and firmware updates to the USB Billboard and USB-PD controllers used in the display dongle.
+</font></p>
+</body>
+</html>

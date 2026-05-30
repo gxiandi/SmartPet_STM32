@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dlg name="dlg_select_com" title="[Download]" width="440" height="170" appwin="1" resize="0"
+	translucent="255" frame="" crbk="000000"
+	img-shadow="skins\default\winback_shadow.png" shadow-wlt="36" shadow-hlt="34" shadow-wrb="36" shadow-hrb="35">
+	
+	<base>
+		<imgbtn name="button.close" pos="-45,0,-0,29" skin="IDB_BT_CLOSE" show="1"/>
+		<text name="title" crtext="FFFFFF" crmark="800000" font="big"
+				pos="10,4,200,25" title="[Download]" response="0" show="1" />
+	</base>
+    
+	<body>
+		<area pos="1,26,-1,-41" color="FFFFFF"  begin-transparent="0" end-transparent="0"/>      
+		
+		<text pos="10,36,80,60" crtext="0" title="起始地址：" response="0" show="1" align="right" /> 
+		<edit pos="82,32,230,56" name="StartAddress" title="0x08000000" skin="IDB_EDIT" multiline="0" autohscroll="1" autovscroll="0" number="0" maxchar="1024" show="1" />		
+		<chkbtn pos="240,36,360,52" name="DownOption" skin="IDB_CHECK_BOX" title="下载代码选项" show="1" />
+		
+		<chkbtn pos="18,60,120,90" name="Verify" skin="IDB_CHECK_BOX" title="下载完后校验" show="1" />
+		<chkbtn pos="130,60,240,90" name="SkipErase" skin="IDB_CHECK_BOX" title="下载前不擦除" show="1" />
+		<chkbtn pos="240,60,360,90" name="AfterRun" skin="IDB_CHECK_BOX" title="下载完后运行" show="1" />
+		
+		<text pos="10,97,80,120" crtext="0" title="代码文件：" response="0" show="1" align="right" /> 
+		<edit pos="82,92,400,120" name="CodePathEdit" skin="IDB_EDIT" multiline="0" autohscroll="1" autovscroll="0" number="0" readonly="0" maxchar="1024" show="1" />
+		<button pos="400,92,430,120" name="CodeSelBtn" skin="IDB_BT_DEFAULT" title="..." show="1" />
+        
+		<area pos="1,-40,-1,-1" color="FFFFFF"  begin-transparent="60" end-transparent="80"/>
+		<button name="buttonok" skin="IDB_BT_DEFAULT" title="[BurnButton]"	pos="-190,-36,-110,-6" showfocus="0" show="1" />
+		<button name="buttoncancel" skin="IDB_BT_DEFAULT" title="[CANCEL]"	pos="-100,-36,-20,-6" showfocus="0" show="1" />	
+	</body>
+  
+</dlg>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dlg name="dlg_about" title="MsgBox" width="360" height="160" appwin="1" resize="1"
+	translucent="255" frame="" crbk="000000"
+	shadow-wlt="36" shadow-hlt="34" shadow-wrb="36" shadow-hrb="35">
+	
+	<base>
+		<imgbtn name="button.close" pos="-45,0,-0,29" skin="IDB_BT_CLOSE" show="1"/>
+		<text name="title" crtext="FFFFFF" crmark="800000" font="big"
+				pos="10,3,200,25" title="[APP_NAME]" response="0" show="1" />
+	</base>
+
+	<body>
+		<area pos="1,26,-1,-41" color="FFFFFF"  begin-transparent="0" end-transparent="0"/>
+		<!--img name="icon" pos="25,45" width="128" height="128" image="skins\image\qrcode.jpg" mode="normal" framesize="0" response="0" show="1" /-->
+		
+		<text crtext="000000" pos="30,40,-25,65" title="[APP_NAME] [APP_VER]" />
+		<text crtext="000000" pos="30,65,-25,85" title="Copyright(C) 2018-2019 Chipsea" />
+		
+		<area pos="1,-40,-1,-1" color="FFFFFF"  begin-transparent="60" end-transparent="80"/>
+		<linkbtn name="linkbtn1" crtext="0000B0"
+			pos="30,90,-25,120" show="1" title="http://www.chipsea.com" href="http://www.chipsea.com" />
+	
+		<button name="button.ok" skin="IDB_BT_DEFAULT" title="[OK]"	pos="-100,-30,-20,-6" show="1" />
+
+	</body>
+  
+</dlg>

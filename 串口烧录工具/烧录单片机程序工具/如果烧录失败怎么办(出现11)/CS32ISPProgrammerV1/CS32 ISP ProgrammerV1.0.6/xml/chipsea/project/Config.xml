@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<config version="1" verfiy="1" eraseoption="1" afterrun="0" codefile="C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.3\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\User_Project\Objects\cs32f0xx_demo.hex" startaddr="" autodown="0" downoption="0" burnsid="0" sidaddr="0x08000FF0" sidsize="2" sidstart="0" sidstep="1" limitburn="0" limit="9999" limitpc="0" pcid="" loglevel="0" playsound="1" exportfile="" allerase="1" erasepages="|0||1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20||21||22||23||24||25||26||27||28||29||30||31|" guid="" checksum="-1379006993" codefiletimelow="0" codefiletimehig="0">
+	<device devid="0x444" type="MCU" cpu="Cortex-M0+/M4" name="CS32F03X" addr="0x08000000" page_count="32" page_size="1024" />
+	<option name="Option" caption="Option" addr="0x1FFFF800" size="16">
+		<item name="read_out_protection" caption="Read Out Protection" addr="0x1FFFF800" size="1" descript="Read protection option byte. The read protection is used to protect the software code stored in Flash memory">
+			<item name="rdp" caption="RDP" list="1" index="0" descript="Level 0: no protection\nLevel 1: read protection of memories\nLevel 2: chip protection">
+				<item name="Level 0" value="170" />
+				<item name="Level 1" value="187" />
+				<item name="Level 2" value="204" />
+			</item>
+		</item>
+		<item name="user_configuration" caption="User Configuration" addr="0x1FFFF802" size="1">
+			<item name="WDG_SW" caption="WDG_SW" sbit="0" ebit="0" list="1" index="1" descript="">
+				<item name="Hardware watchdog" value="0" />
+				<item name="Software watchdog" value="1" />
+			</item>
+			<item name="nRST_STOP" caption="nRST_STOP" sbit="1" ebit="1" list="1" index="1" descript="Enable :Reset generated when entering Stop mode\nDisable:No reset generated">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="nRST_STDBY" caption="nRST_STDBY" sbit="2" ebit="2" list="1" index="1" descript="Enable :Reset generated when entering Standby mode\nDisable:No reset generated">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="nBOOT1" caption="nBOOT1" sbit="4" ebit="4" list="3" index="1" descript="">
+				<item name="Boot From SRAM" value="0" />
+				<item name="Boot From FLASH" value="1" />
+			</item>
+			<item name="VDDA_MONITOR" caption="VDDA_MONITOR" sbit="5" ebit="5" list="1" index="1" descript="Enable :VDDA power supply supervisor enabled\nDisable:VDDA power supply supervisor disabled">
+				<item name="Disable" value="0" />
+				<item name="Enable" value="1" />
+			</item>
+			<item name="RAM_PARITY" caption="RAM_PARITY" sbit="6" ebit="6" list="1" index="1" descript="Enable :RAM parity check enabled\nDisable:RAM parity check disabled">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+		</item>
+		<item name="user_data" caption="User Data">
+			<item name="Data0" caption="Data0" addr="0x1FFFF804" size="1" value="0xFF" maxlen="4" hex="1" edit="1" index="0" descript="" />
+			<item name="Data1" caption="Data1" addr="0x1FFFF806" size="1" value="0xFF" maxlen="4" hex="1" edit="1" index="0" descript="" />
+		</item>
+		<item name="write_protection" caption="Write Protection" addr="0x1FFFF808" size="1">
+			<item name="nWRP0" caption="nWRP0" sbit="0" ebit="0" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="nWRP1" caption="nWRP1" sbit="1" ebit="1" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="nWRP2" caption="nWRP2" sbit="2" ebit="2" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="nWRP3" caption="nWRP3" sbit="3" ebit="3" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="nWRP4" caption="nWRP4" sbit="4" ebit="4" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="nWRP5" caption="nWRP5" sbit="5" ebit="5" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="nWRP6" caption="nWRP6" sbit="6" ebit="6" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="nWRP7" caption="nWRP7" sbit="7" ebit="7" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+		</item>
+	</option>
+</config>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+<!--系统配置-->
+<res type="cfg" name="defaultStyle" value="" />
+<res type="cfg" name="appMutex" value="CS32MPTool" />
+<res type="cfg" name="enableDragFile" value="3" />
+<res type="cfg" name="dpiAware" value="0" dpix="" dpiy="" />
+
+<!--风格设置-->
+<!--每种风格可以定义名字后面增加1x-4x的四种风格,分别表示DPI为原始的125%,150%,175%,200%四种分辨率下的风格,dpiAware设置为3才生效-->
+<res type="style" name="default" value="" />
+
+<!--XML资源-->
+<res type="res" lang="zh-cn" file="xml\def_string_zh-cn.xml" />
+<res type="res" lang="en-us" file="xml\def_string_en-us.xml" />
+
+<!--XML资源-默认风格-->
+<res type="xml" name="dlg_main" file="xml\windows\dlg_main.xml" />
+<res type="xml" name="dlg_about" file="xml\windows\dlg_about.xml"  />
+<res type="xml" name="dlg_updates" file="xml\windows\dlg_updates.xml"  />
+<res type="xml" name="dlg_skin" file="xml\dlg_skin.xml"  />
+<res type="xml" name="dlg_notifymsg" file="xml\dlg_notifymsg.xml"  />
+<res type="xml" name="dlg_msgbox" file="xml\dlg_msgbox.xml"  />
+<res type="xml" name="dlg_process" file="xml\windows\dlg_process.xml" />
+<res type="xml" name="dlg_process_timer" file="xml\windows\dlg_process_timer.xml" />
+<res type="xml" name="dlg_select_com" file="xml\windows\dlg_select_com.xml" />
+<res type="xml" name="dlg_new_project" file="xml\windows\dlg_new_project.xml" />
+<res type="xml" name="dlg_select_export" file="xml\windows\dlg_select_export.xml" />
+<res type="xml" name="dlg_select_setting" file="xml\windows\dlg_select_setting.xml" />
+<res type="xml" name="dlg_select_download" file="xml\windows\dlg_select_download.xml" />
+<res type="xml" name="dlg_select_erase" file="xml\windows\dlg_select_erase.xml" />
+<res type="xml" name="dlg_select_option" file="xml\windows\dlg_select_option.xml" />
+<res type="xml" name="dlg_project_option" file="xml\windows\dlg_project_option.xml" />
+
+<!--主菜单-->
+<res type="xml" name="menu_tab" file="xml\windows\menu_tab.xml"  />
+<res type="xml" name="menu_main" file="xml\windows\menu_main.xml"  />
+
+<!--图片资源-默认风格-->
+<res type="img" name="IDB_MAIN_FRAME" file="skins\default\WindowsBack.png" />
+<res type="img" name="IDB_MAIN_FRAME_EXT" file="skins\default\WindowsBackExt.png" />
+<res type="img" name="IDB_BT_CLOSE" file="skins\default\BT_CLOSE.png" />
+<res type="img" name="IDB_BT_MAX" file="skins\default\BT_MAX.png" />
+<res type="img" name="IDB_BT_MIN" file="skins\default\BT_MIN.png" />
+<res type="img" name="IDB_BT_MENU" file="skins\default\BT_MENU.png" />
+<res type="img" name="IDB_BT_SKIN" file="skins\default\BT_SKIN.png" />
+<res type="img" name="IDB_BT_SETUP" file="skins\default\BT_SETUP.png" />
+<res type="img" name="IDB_BT_DEFAULT" file="skins\default\BT_DEFAULT.png" />
+<res type="img" name="IDB_BT_NOFRAME" file="skins\default\BT_NOFRAME.png" />
+<res type="img" name="IDB_BT_BIG_DEFAULT" file="skins\default\BT_BIG_DEFAULT.png" />
+<res type="img" name="IDB_BT_ICON" file="skins\default\BT_ICON.png" />
+<res type="img" name="IDB_BT_GREEN" file="skins\default\BT_GREEN.png" />
+<res type="img" name="IDB_BT_CANCEL" file="skins\default\BT_CANCEL.png" />
+<res type="img" name="IDB_CHECK_BOX" file="skins\default\CHECK_BOX.png" />
+<res type="img" name="IDB_RADIO_BUTTON" file="skins\default\RADIO_BUTTON.png" />
+<res type="img" name="IDB_EDIT" file="skins\default\EDIT.png" />
+<res type="img" name="IDB_COMBO_ITEM" file="skins\default\COMBO_ITEM.png" />
+<res type="img" name="IDB_COMBO_ITEM_CLOSE" file="skins\default\COMBO_ITEM_CLOSE.png" />
+<res type="img" name="IDB_PROGRESS" file="skins\default\Progress.png" />
+<res type="img" name="IDB_PROGRESS_GREEN_BACK" file="skins\default\progress_background_icon.png" />
+<res type="img" name="IDB_PROGRESS_GREEN_FORE" file="skins\default\progress_foreground_icon.png" />
+<res type="img" name="IDB_SCROLL_V" file="skins\default\SCROLL_V.png" />
+<res type="img" name="IDB_SCROLL_H" file="skins\default\SCROLL_H.png" />
+<res type="img" name="IDB_BT_SCROLL_UP" file="skins\default\BT_SCROLL_UP.png" />
+<res type="img" name="IDB_BT_SCROLL_DOWN" file="skins\default\BT_SCROLL_DOWN.png" />
+<res type="img" name="IDB_TAB_SEPERATOR" file="skins\default\Tab_seperator.png" />
+<res type="img" name="IDB_TAB_SEPERATOR_V" file="skins\default\Tab_seperator_v.png" />
+<res type="img" name="IDB_TAB_ITEM" file="skins\default\tab.png" />
+<res type="img" name="IDB_TAB_BACK" file="skins\default\tab_background.png" />
+<res type="img" name="IDB_TAB_BACK2" file="skins\default\tab_background2.png" />
+<res type="img" name="IDB_TAB_HOVER" file="skins\default\toolbar_hover.png" />
+<res type="img" name="IDB_TAB_HOVER_V" file="skins\default\toolbar_hover_v.png" />
+<res type="img" name="IDB_LIST_IMG" file="skins\default\list_img.png" />
+<res type="img" name="IDB_MSGDLG_BK" file="skins\default\msgdlg_bk.png" />
+<res type="img" name="IDB_TREE_COLLAPSE" file="skins\default\tree_collapse.png" />
+<res type="img" name="IDB_TREE_TOGGLE" file="skins\default\tree_toggle.png" />
+<res type="img" name="IDB_TREE_CHECKBOX" file="skins\default\tree_checkbox.png" />
+<res type="img" name="IDB_TREE_ICON" file="skins\default\tree_icon.png" />
+<res type="img" name="IDB_BT_SKIN_CUSTOMIZE" file="skins\default\BT_SKIN_CUSTOMIZE.png" />
+<res type="img" name="IDB_BT_SKIN_IMAGE" file="skins\default\BT_SKIN_IMAGE.png" />
+<res type="img" name="IDB_BT_SKIN_COLOR" file="skins\default\BT_SKIN_COLOR.png" />
+<res type="img" name="IDB_SKIN_PUSHED_BKG" file="skins\default\SkinPushedBkg.png" />
+<res type="img" name="IDB_SKIN_BKG" file="skins\default\SkinBkg.png" />
+<res type="img" name="IDB_DROP_DOWN" file="skins\default\BT_DROP_DOWN.png" />
+<res type="img" name="IDB_KEY_BOARD" file="skins\default\BT_KEY_BOARD.png" />
+<res type="img" name="IDB_EDIT_USER" file="skins\simage\edit_user.png" />
+<res type="img" name="IDB_COMPUTER" file="skins\simage\computer.png" />
+<res type="img" name="IDB_EDIT_PWD" file="skins\simage\password.png" />
+<res type="img" name="IDB_LINE_RP" file="skins\default\rp_line.png" />
+<res type="img" name="IDB_SPLIT_HORI" file="skins\default\split_hori.png" />
+<res type="img" name="IDB_SPLIT_VERT" file="skins\default\split_vert.png" />
+<res type="img" name="IDB_SPLIT_THUMB_HORI" file="skins\default\split_thumb_hori.jpg" />
+<res type="img" name="IDB_SPLIT_THUMB_VERT" file="skins\default\split_thumb_vert.jpg" />
+<res type="img" name="IDB_TOOLBAR_BG" file="skins\default\toolbar_bg.png" />
+
+<res type="img" name="IDB_MENU_BACK" file="skins\menu\menu_bkg.png" />
+<res type="img" name="IDB_MENU_SEP" file="skins\menu\menu_sep.png" />
+<res type="img" name="IDB_MENU_ARROW" file="skins\menu\menu_arrow.png" />
+<res type="img" name="IDB_MENU_CHECK" file="skins\menu\menu_check.png" />
+
+<res type="img" name="IDB_ICON_CHECK" file="skins\image\icon_check.png" />
+<res type="img" name="IDB_ICON_INFO" file="skins\image\icon_info.png" />
+<res type="img" name="IDB_ICON_QUESTION" file="skins\image\icon_question.png" />
+<res type="img" name="IDB_ICON_WARN" file="skins\image\icon_warning.png" />
+<res type="img" name="IDB_ICON_ERROR" file="skins\image\icon_error.png" />
+
+<res type="img" name="IDB_MENU_UPDATE" file="skins\menu\MENU_UPDATE.png" />
+<res type="img" name="IDB_MENU_AUTH" file="skins\menu\MENU_AUTH.png" />
+<res type="img" name="IDB_MENU_HELP" file="skins\menu\MENU_HELP.png" />
+<res type="img" name="IDB_MENU_SETUP" file="skins\menu\MENU_SETUP.png" />
+
+<res type="img" name="IDB_SCAN_ANIMATE" file="skins\default\scan_animate.png" />
+
+</root>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dlg name="dlg_main" title="[APP_NAME]" width="1024" height="768" min-width="1024" min-height="768" translucent="255"
+	frame="skin:IDB_MAIN_FRAME_EXT" bkimg="" crbk="000000" appwin="1" resize="1"
+	width-lt="3" height-lt="119" width-rb="3" height-rb="30" topmost="0" wnd-drag="1"
+	img-shadow="skins\360\window_shadow.png" shadow-wlt="5" shadow-hlt="3" shadow-wrb="5" shadow-hrb="7">
+
+  <base>
+	<div name="win.caption" pos="0,0,-0,52" response="0" />
+	<button crtext="FFFFFF" font="bold" pos="5,1" width="24" height="24" img-btn="skins\icon\log.png" skin="IDB_BT_NOFRAME" showfocus="0" disable="1" />
+	<imgbtn name="button.close" pos="-38,1" width="38" height="31" skin="IDB_BT_CLOSE" showfocus="0" tip="[Close]" action="close-window:dlg_main" show="1"/>
+	<!--
+	<imgbtn name="button.max" pos="-73,1" width="35" height="31" skin="IDB_BT_MAX" showfocus="0" tip="[Max]" />
+	-->
+	<imgbtn name="button.min" pos="-73,1" width="35" height="31" skin="IDB_BT_MIN" showfocus="0" tip="[Min]" />
+	<imgbtn name="button.menu" pos="-108,1" width="35" height="31" skin="IDB_BT_MENU" showfocus="0" tip="[Menu]" action="menu:menu_main" menupos="-75,-0" />
+	<imgbtn name="button.skin" pos="-144,1" width="35" height="31" skin="IDB_BT_SKIN" showfocus="0" tip="[Skin]" show="1"/>
+	<text name="title" autosize="1" pos="28,6,-152,30" crtext="FFFFFF" crmark="800000" crshadow="808080" font="title" title="[APP_NAME] V[APP_VER]" response="0" show="1" />
+  </base>
+  
+  <body>  
+    <area pos="0,30,-0,83" color="FFFFFF"  begin-transparent="80" end-transparent="100" />
+	<div name="toolbar" pos="4,30,523,88" >	
+		<button name="erase" crtext="FFFFFF" hot-key="Ctrl+E" font="bold" pos="0,2" width="64" height="57" img-btn="skins\icon\erase32.png" skin="IDB_BT_NOFRAME" showfocus="0" title="[Erase]" tip="[Erase]" />
+		<button name="option" crtext="FFFFFF" hot-key="Ctrl+T" font="bold" pos="65,2" width="64" height="57" img-btn="skins\icon\setting32.png" skin="IDB_BT_NOFRAME" showfocus="0" title="[Setting]" tip="[Setting]" />
+		<button name="help" crtext="FFFFFF" hot-key="Ctrl+H" font="bold" pos="131,2" width="64" height="57" img-btn="skins\icon\help32.png" skin="IDB_BT_NOFRAME" showfocus="0" title="[Help]" tip="[Help]" />
+	</div>    
+    
+    <area pos="0,91,-0,92" color="FFFFFF"  begin-transparent="70" end-transparent="70" />
+    <area name="area-controls" pos="1,130,-1,-30" begin-transparent="0" end-transparent="0" />  
+	<rect name="area-left-background" pos="2,85,2,-30" sys-bkcolor="1" />
+	<rect name="area-right-background" pos="-2,85,-2,-30" sys-bkcolor="1" />
+	<tabctrl name="tabctrl.main" img-tabbtn="skins\icon\close--.png"
+			img-sep="skin:IDB_TAB_SEPERATOR--" img-hover="skin:IDB_TAB_HOVER"
+			font="bold" item-width="0" tab-height="40" tab-left-pading="0"
+			pos="2,90,-2,-30"> 
+		<tab name="tab.config" title="[DeviceList]" pos="0,40,-0,-0" >
+		
+			<area pos="0,1,-0,-1" color="FFFFFF"  begin-transparent="0" end-transparent="0"/> 
+			
+			<text pos="10,10,80,34" crtext="0" title="串口名称" response="0" show="1" align="right" /> 
+			<combobox name="DeviceName" pos="82,6,246,30" skin="IDB_EDIT" small-image="skin:IDB_DROP_DOWN"  img-scroll="skin:IDB_SCROLL_V" readonly="1" value="32" >
+			</combobox>
+			<button pos="256,6" width="70" height="24" name="OpenDeviceBtn" skin="IDB_BT_DEFAULT" title="打开串口" show="1" />
+			<button pos="330,6" width="70" height="24" name="CloseDeviceBtn" skin="IDB_BT_DEFAULT" title="关闭串口" show="1" disable="1" />
+			
+			<text pos="10,40,80,64" crtext="0" title="芯片型号" response="0" show="1" align="right" /> 
+			<combobox name="ChipNames" pos="82,36,246,60" skin="IDB_EDIT" small-image="skin:IDB_DROP_DOWN"  img-scroll="skin:IDB_SCROLL_V" readonly="1" value="32" >
+			</combobox>	
+			
+			<text pos="256,40,310,64" crtext="0" title="擦除设置" response="0" show="1" align="right" /> 
+			<combobox name="EraseOption" pos="316,36,460,62" skin="IDB_EDIT" small-image="skin:IDB_DROP_DOWN"  img-scroll="skin:IDB_SCROLL_V" readonly="1" value="0" >
+				<item name="全部擦除" value="0" />
+				<item name="按程序大小擦除" value="1" />
+				<item name="不擦除" value="2" />
+			</combobox>		
+		
+			<chkbtn pos="82,64,190,90" name="Verify" skin="IDB_CHECK_BOX" title="下载完后校验" show="1" />
+			<chkbtn pos="192,64,304,90" name="DownOption" skin="IDB_CHECK_BOX" title="下载代码选项" show="1" />
+			<chkbtn pos="306,64,416,90" name="AfterRun" skin="IDB_CHECK_BOX" title="下载完后运行" show="1" />
+			<chkbtn pos="418,64,530,90" name="PlaySound" skin="IDB_CHECK_BOX" title="下载完后播放声音" show="1" />
+			
+			<text pos="10,98,80,120" name="CodePathEditText" crtext="0" title="程序文件" response="0" show="1" align="right" /> 
+			<edit pos="82,92,660,120" name="CodePathEdit" skin="IDB_EDIT" readonly="1" hotshow="0" crback="240,240,240" multiline="0" autohscroll="1" autovscroll="0" number="0" maxchar="1024" show="1" />
+			<button pos="661,92,690,120" name="CodeSelBtn" skin="IDB_BT_DEFAULT" title="..." show="1" />
+			<button pos="691,92,780,120" name="DownloadCodeBtn" skin="IDB_BT_DEFAULT" title="下载程序" show="1" />
+			<button pos="781,92,890,120" name="ReadChipInfo" skin="IDB_BT_DEFAULT" title="读取芯片信息" show="1" />
+			
+			<rect name="tabctrl.log.rect" pos="0,126,-0,-0" sys-bkcolor="1" response="0" />
+			<text pos="0,134" width="80" height="32" crtext="FFFFFF" title="[LogLevel]" response="0" show="1" align="right" />
+			<radiobtn name="log-level1" show="1" pos="84,127" crtext="FFFFFF" width="60" height="32" skin="IDB_RADIO_BUTTON" title="[Level1]" /> 
+			<radiobtn name="log-level2" show="1" pos="150,127" crtext="FFFFFF" width="60" height="32" skin="IDB_RADIO_BUTTON" title="[Level2]" /> 
+			
+			<button name="btn-log-save" pos="-82,128" crtext="FFFFFF" font="bold" width="80" height="27" img-btn="skins\icon\files_save.png" skin="IDB_BT_NOFRAME" title="[SaveLog]" tip="[SaveLog]"  showfocus="0" text-align="right" />
+			<button name="btn-log-cls" pos="-164,128" crtext="FFFFFF" font="bold" width="80" height="27" img-btn="skins\icon\trash.png" skin="IDB_BT_NOFRAME" showfocus="0" title="[ClearLog]" tip="[ClearLog]" text-align="right" />
+			
+			<nativewnd name="logwindow" pos="1,156,-1,-1" control="richedit" />
+			
+        </tab>
+		
+		<tab name="tab.devdata1" title="[ReadHexData]" pos="0,40,-0,-0" show="1" >		
+			<nativewnd name="devdatawindow" pos="0,0,-1,-4" />
+		</tab>
+	</tabctrl>
+	
+	<rect pos="0,-30,-0,-29" sys-bkcolor="1" response="0"/>
+    <rect pos="2,-29,-2,-2" sys-bkcolor="0" response="0"/>
+	<div name="footer" pos="2,-29,-1,-2" >
+		<text name="txtDeviceStatus" pos="2,5,100,-1" crtext="2020a0" title="" font="bold"  align="center" />
+		<text name="txtChecksum" pos="101,5,320,-1" crtext="2020a0" title="" font="bold"  align="left" />
+		<nativewnd name="pxTaskStatus" pos="320,1,-1,-1" />
+	</div>
+	<rect pos="100,-29,101,-2" sys-bkcolor="1" response="0"/> 
+	<rect pos="320,-29,321,-2" sys-bkcolor="1" response="0"/> 
+	<rect pos="0,-2,-0,-0" sys-bkcolor="1" response="0"/> 
+	
+  </body>
+</dlg>

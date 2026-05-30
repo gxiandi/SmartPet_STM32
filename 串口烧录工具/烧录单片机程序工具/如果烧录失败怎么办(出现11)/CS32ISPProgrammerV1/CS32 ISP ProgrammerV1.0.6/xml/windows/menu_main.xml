@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<menu title="Menu" width="150" item-height="27" framesize="30" left="30" frame-width="3" bkimg="skin:IDB_MENU_BACK" >
+
+	<menuitem name="item_chinese" title="[Lang_Chinese]" />
+	<!--menuitem name="item_english" title="[Lang_English]" /-->
+	<menuitem name="item_about" title="[About]" action="dlg:dlg_about" />
+  
+</menu>

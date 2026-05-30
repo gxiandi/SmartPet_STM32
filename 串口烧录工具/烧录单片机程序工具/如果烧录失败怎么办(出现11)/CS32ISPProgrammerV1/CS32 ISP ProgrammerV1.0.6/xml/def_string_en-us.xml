@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+<!--字体资源-->
+<res type="font" lang="en-us" name="default" font="微软雅黑" size="12" bold="false" />
+<res type="font" lang="en-us" name="default" font="Tahoma" size="11" bold="false" os="winxp" />
+<res type="font" lang="en-us" name="bold" font="微软雅黑" size="11" bold="true" />
+<res type="font" lang="en-us" name="bold" font="Tahoma" size="11" bold="true" os="winxp" />
+<res type="font" lang="en-us" name="big" font="微软雅黑" size="14" bold="true" italic="false" underline="false" strikeout="false" />
+<res type="font" lang="en-us" name="big" font="Tahoma" size="12" bold="true" italic="false" underline="false" strikeout="false" os="winxp" />
+<res type="font" lang="en-us" name="bigbig" font="微软雅黑" size="18" />
+<res type="font" lang="en-us" name="bigbig" font="Tahoma" size="17" os="winxp" />
+<res type="font" lang="en-us" name="italic" font="微软雅黑" size="12" bold="false" italic="true" />
+<res type="font" lang="en-us" name="italic" font="Tahoma" size="11" bold="false" italic="true" os="winxp" />
+<res type="font" lang="en-us" name="underline" font="微软雅黑" size="12" bold="false" underline="true" />
+<res type="font" lang="en-us" name="underline" font="Tahoma" size="11" bold="false" underline="true" os="winxp" />
+<res type="font" lang="en-us" name="strikeout" font="微软雅黑" size="12" bold="false" strikeout="true" />
+<res type="font" lang="en-us" name="strikeout" font="Tahoma" size="11" bold="false" strikeout="true" os="winxp" />
+
+<!--English string resource-->
+<res type="str" lang="en-us" name="TEST" value="Test" />
+<res type="str" lang="en-us" name="homepage" value="file://html/start/index-us.html" />
+<res type="str" lang="en-us" name="APP_NAME" value="CS32 ISP Programmer" />
+<res type="str" lang="en-us" name="APP_VER" value="1.0.6" />
+<res type="str" lang="en-us" name="OK" value="OK" />
+<res type="str" lang="en-us" name="CANCEL" value="Cancel" />
+<res type="str" lang="en-us" name="YES" value="Yes" />
+<res type="str" lang="en-us" name="NO" value="No" />
+<res type="str" lang="en-us" name="Lang_Chinese" value="Chinese" />
+<res type="str" lang="en-us" name="Lang_English" value="English" />
+<res type="str" lang="en-us" name="Check_Update" value="Website Update" />
+<res type="str" lang="en-us" name="About" value="About" />
+<res type="str" lang="en-us" name="MessageBoxTitle" value="System Message" />
+<res type="str" lang="en-us" name="ChangeLanguageNotify" value="The switch language needs to restart, is it restarted?" />
+<res type="str" lang="en-us" name="Skin" value="Skin" />
+<res type="str" lang="en-us" name="Close" value="Close" />
+<res type="str" lang="en-us" name="ShowLog" value="Show Log" />
+<res type="str" lang="en-us" name="Max" value="Max" />
+<res type="str" lang="en-us" name="Min" value="Min" />
+<res type="str" lang="en-us" name="Menu" value="Menu" />
+<res type="str" lang="en-us" name="Add" value="Add" />
+<res type="str" lang="en-us" name="Del" value="Del" />
+<res type="str" lang="en-us" name="Conf" value="Conf" />
+<res type="str" lang="en-us" name="New" value="New" />
+<res type="str" lang="en-us" name="Open" value="Open" />
+<res type="str" lang="en-us" name="Saveas" value="Saveas" />
+<res type="str" lang="en-us" name="Query" value="Query" />
+<res type="str" lang="en-us" name="Config" value="Config" />
+<res type="str" lang="en-us" name="Download" value="Download" />
+<res type="str" lang="en-us" name="Burnoption" value="Option" />
+<res type="str" lang="en-us" name="BurnoptionDlg" value="Burn Option" />
+<res type="str" lang="en-us" name="Checksum" value="Checksum" />
+<res type="str" lang="en-us" name="ChecksumTool" value="Checksum" />
+<res type="str" lang="en-us" name="FWDownload" value="Fireware" />
+<res type="str" lang="en-us" name="ExportHex" value="Export" />
+<res type="str" lang="en-us" name="StartPage" value="Start Page" />
+<res type="str" lang="en-us" name="BaseConfigure" value="Configure" />
+<res type="str" lang="en-us" name="ReadHexData" value="R/W Data" />
+<res type="str" lang="en-us" name="ChecksumList" value="Checksum" />
+<res type="str" lang="en-us" name="UserManual" value="Help" />
+<res type="str" lang="en-us" name="LogMessage" value="Message" />
+<res type="str" lang="en-us" name="Clear" value="Clear" />
+<res type="str" lang="en-us" name="Save" value="Save" />
+<res type="str" lang="en-us" name="Chip" value="Chip" />
+<res type="str" lang="en-us" name="Tool" value="Tool" />
+<res type="str" lang="en-us" name="Name" value="Name" />
+<res type="str" lang="en-us" name="NewProject" value="New Project" />
+<res type="str" lang="en-us" name="SoftName" value="Software" />
+<res type="str" lang="en-us" name="ToolName" value="Tool" />
+<res type="str" lang="en-us" name="ChipName" value="Chip" />
+<res type="str" lang="en-us" name="ADDRESS" value="Address" />
+<res type="str" lang="en-us" name="CODE_CHECKSUM" value="Code Checksum" />
+<res type="str" lang="en-us" name="CONF_CHECKSUM" value="Config Checksum" />
+<res type="str" lang="en-us" name="CODE_SIZE" value="Code Size" />
+<res type="str" lang="en-us" name="CONF_SIZE" value="Config Size" />
+<res type="str" lang="en-us" name="OPTION_SIZE" value="Option Size" />
+<res type="str" lang="en-us" name="CHIP_TYPE_ID" value="Chip Type ID" />
+<res type="str" lang="en-us" name="FUNC_TYPE_ID" value="Chip Feature ID" />
+<res type="str" lang="en-us" name="SELECT_ADDRESS" value="Select Address" />
+<res type="str" lang="en-us" name="TYPE" value="Type" />
+<res type="str" lang="en-us" name="SELECT_OPERATOR_TYPE" value="Select Type" />
+<res type="str" lang="en-us" name="SELECT_EXPORT_HEX" value="Export Hex File" />
+<res type="str" lang="en-us" name="ReadTool" value="ReadTool" />
+<res type="str" lang="en-us" name="ReadChip" value="ReadChip" />
+<res type="str" lang="en-us" name="WriteTool" value="WriteTool" />
+<res type="str" lang="en-us" name="WriteChip" value="WriteChip" />
+<res type="str" lang="en-us" name="ToolFlash" value="Tool Flash" />
+<res type="str" lang="en-us" name="ChipFlash" value="Chip Flash" />
+<res type="str" lang="en-us" name="CodeArea" value="Code Area" />
+<res type="str" lang="en-us" name="ConfArea" value="Config Area" />
+<res type="str" lang="en-us" name="OptionArea" value="Option Area" />
+<res type="str" lang="en-us" name="UpdateCodeArea" value="Update Code Area" />
+<res type="str" lang="en-us" name="UpdateConfArea" value="Update Config Area" />
+<res type="str" lang="en-us" name="CodeAreaSize" value="Code Area Size" />
+<res type="str" lang="en-us" name="ConfAreaSize" value="Config Area Size" />
+<res type="str" lang="en-us" name="ConfOptionSize" value="Option Area Size" />
+<res type="str" lang="en-us" name="Import" value="Import" />
+<res type="str" lang="en-us" name="Export" value="Export" />
+<res type="str" lang="en-us" name="Goto" value="Goto Addr" />
+<res type="str" lang="en-us" name="ExportPath" value="Save Path" />
+<res type="str" lang="en-us" name="Dev-Status" value="DevStatus: " />
+<res type="str" lang="en-us" name="Dev-None" value="No available ports were found" />
+<res type="str" lang="en-us" name="Dev-Disconnect" value="%s open failed!" />
+<res type="str" lang="en-us" name="Dev-Connected" value="%s is ready" />
+<res type="str" lang="en-us" name="ReadFileError" value="Read file error:%s" />
+<res type="str" lang="en-us" name="WriteFileError" value="Write file error:%s" />
+<res type="str" lang="en-us" name="DecodeFileError" value="Decode file error:%s" />
+<res type="str" lang="en-us" name="DecodeFileCRCError" value="Decode file crc error:%s" />
+<res type="str" lang="en-us" name="DecodeFileLengthError" value="File check error, data length greater than 64K:%s" />
+<res type="str" lang="en-us" name="OpenComPortError" value="Open %s port failed!" />
+<res type="str" lang="en-us" name="SaveNotify" value="Whether to save the current project configuration?" />
+<res type="str" lang="en-us" name="NewNotify" value="Please build or open the project first!" />
+<res type="str" lang="en-us" name="Param" value="Param" />
+<res type="str" lang="en-us" name="Value" value="Value" />
+<res type="str" lang="en-us" name="BURN_OPTION" value="Burn Option" />
+<res type="str" lang="en-us" name="SELECT_DEVICE" value="Select Device" />
+<res type="str" lang="en-us" name="SELECT_DEVICE_TYPE" value="Select Device:" />
+<res type="str" lang="en-us" name="MAXMIN_Value_Notify" value="This valid value range is:" />
+<res type="str" lang="en-us" name="SELECT_SERIAL_PORT" value="Port Setting" />
+<res type="str" lang="en-us" name="UPDATE_ITEMS" value="Updates" />
+<res type="str" lang="en-us" name="SELECT_PORT" value="Port" />
+<res type="str" lang="en-us" name="SELECT_PORT_BAUDRATE" value="Baudrate" />
+<res type="str" lang="en-us" name="SELECT_PORT_DATABIT" value="Databit" />
+<res type="str" lang="en-us" name="SELECT_PORT_PARITY" value="Parity" />
+<res type="str" lang="en-us" name="SELECT_PORT_STOPBIT" value="Stopbit" />
+<res type="str" lang="en-us" name="None" value="None" />
+<res type="str" lang="en-us" name="Odd" value="Odd" />
+<res type="str" lang="en-us" name="Even" value="Even" />
+<res type="str" lang="en-us" name="Read" value="Read" />
+<res type="str" lang="en-us" name="Write" value="Write" />
+<res type="str" lang="en-us" name="FILE_PATH_INVALID" value="File path invalid!" />
+<res type="str" lang="en-us" name="FILE_NOT_EXIST" value="File not exist!" />
+<res type="str" lang="en-us" name="FILE_EXIST_MESSAGE" value="%s is exist，do you replace it?" />
+<res type="str" lang="en-us" name="MUST_SELECT_TYPE" value="You must choose a download type!" />
+<res type="str" lang="en-us" name="SELECT_PASSWORD" value="Password" />
+<res type="str" lang="en-us" name="PASSWORD_ERROR" value="Password input error, please retype!" />
+<res type="str" lang="en-us" name="SELECT_DIALOG_PASSWORD" value="Input Password" />
+<res type="str" lang="en-us" name="DIALOG_PROCESS" value="Process" />
+<res type="str" lang="en-us" name="DIALOG_PROCESSING" value="Processing..." />
+<res type="str" lang="en-us" name="COMMAND_RESPONSE_ERROR" value="Command response error!" />
+<res type="str" lang="en-us" name="COMMAND_NORESPONSE" value="Lower machine response without response!" />
+
+<res type="str" lang="en-us" name="COMMAND_UNKNOWN_REQ" value="Send unknown request" />
+<res type="str" lang="en-us" name="COMMAND_READ_TOOL_CONFIG_REQ" value="Send read tool config request" />
+<res type="str" lang="en-us" name="COMMAND_WRITE_TOOL_CONFIG_REQ" value="Send download tool config request" />
+<res type="str" lang="en-us" name="COMMAND_WRITE_TOOL_CODE_REQ" value="Send download tool user code request" />
+<res type="str" lang="en-us" name="COMMAND_READ_CHIP_CONFIG_REQ" value="Send read chip config request" />
+<res type="str" lang="en-us" name="COMMAND_WRITE_CHIP_CONFIG_REQ" value="Send download chip config request" />
+<res type="str" lang="en-us" name="COMMAND_WRITE_CHIP_CODE_REQ" value="Send download chip user code request" />
+<res type="str" lang="en-us" name="COMMAND_FIREWARE_UPDATE_REQ" value="Send update fireware request" />
+
+<res type="str" lang="en-us" name="COMMAND_READ_TOOL_CODE_FLASH_REQ" value="Send read tool code flash request" />
+<res type="str" lang="en-us" name="COMMAND_READ_CHIP_CODE_FLASH_REQ" value="Send read chip code flash request" />
+<res type="str" lang="en-us" name="COMMAND_WRITE_TOOL_CODE_FLASH_REQ" value="Send write tool code request" />
+<res type="str" lang="en-us" name="COMMAND_WRITE_CHIP_CODE_FLASH_REQ" value="Send write chip code request" />
+
+<res type="str" lang="en-us" name="COMMAND_READ_TOOL_CONF_FLASH_REQ" value="Send read tool config flash request" />
+<res type="str" lang="en-us" name="COMMAND_READ_CHIP_CONF_FLASH_REQ" value="Send read chip config flash request" />
+<res type="str" lang="en-us" name="COMMAND_WRITE_TOOL_CONF_FLASH_REQ" value="Send write tool config flash request" />
+<res type="str" lang="en-us" name="COMMAND_WRITE_CHIP_CONF_FLASH_REQ" value="Send write chip config flash request" />
+
+<res type="str" lang="en-us" name="COMMAND_READ_TOOL_OPTION_FLASH_REQ" value="Send read tool option flash request" />
+<res type="str" lang="en-us" name="COMMAND_READ_CHIP_OPTION_FLASH_REQ" value="Send read chip option flash request" />
+<res type="str" lang="en-us" name="COMMAND_WRITE_TOOL_OPTION_FLASH_REQ" value="Send write tool option flash request" />
+<res type="str" lang="en-us" name="COMMAND_WRITE_CHIP_OPTION_FLASH_REQ" value="Send write chip option flash request" />
+
+<res type="str" lang="en-us" name="COMMAND_READ_BURN_CONF_REQ" value="Send read burn request" />
+<res type="str" lang="en-us" name="COMMAND_WRITE_BURN_CONF_REQ" value="Send write burn request" />
+<res type="str" lang="en-us" name="COMMAND_READ_CHECK_REQ" value="Send read data checksum request" />
+<res type="str" lang="en-us" name="COMMAND_READ_TOOL_INFO_REQ" value="Send read tool info request" />
+<res type="str" lang="en-us" name="COMMAND_READ_CHIP_INFO_REQ" value="Send read chip info request" />
+
+<res type="str" lang="en-us" name="SOFTWARE_VERSION" value="Software Version:%s" />
+<res type="str" lang="en-us" name="HARDWARE_VERSION" value="Hardware Version:%s" />
+<res type="str" lang="en-us" name="PROG_CHECKSUM" value="Code Checksum" />
+<res type="str" lang="en-us" name="DATA_CHECKSUM" value="Data Checksum" />
+<res type="str" lang="en-us" name="OPTION_CHECKSUM" value="Option Checksum" />
+<res type="str" lang="en-us" name="CHIPSEA_VID" value="Chipsea VID" />
+<res type="str" lang="en-us" name="CHIPSEA_CODE" value="Chipsea Code" />
+<res type="str" lang="en-us" name="PROJECT_CODE" value="Project Code" />
+<res type="str" lang="en-us" name="CHIP_TYPE" value="Chip Type" />
+<res type="str" lang="en-us" name="CHIP_TYPE_ID" value="Chip Type ID" />
+<res type="str" lang="en-us" name="FUNC_TYPE" value="Func Type" />
+<res type="str" lang="en-us" name="FUNC_TYPE_ID" value="Func Type ID" />
+<res type="str" lang="en-us" name="EXPORT_OK" value="Export hex file ok!" />
+  
+<res type="str" lang="en-us" name="PC_CONF_CHECKSUM" value="PC config area checksum" />
+<res type="str" lang="en-us" name="ARM_CONF_CHECKSUM" value="FW config area checksum" />
+<res type="str" lang="en-us" name="PC_CODE_CHECKSUM" value="PC code area checksum" />
+<res type="str" lang="en-us" name="ARM_CODE_CHECKSUM" value="FW code area checksum" />
+<res type="str" lang="en-us" name="PC_OPTION_CHECKSUM" value="PC option area checksum" />
+<res type="str" lang="en-us" name="ARM_OPTION_CHECKSUM" value="FW option area checksum" />
+
+<res type="str" lang="en-us" name="CONF_CHECKSUM_FAIL" value="config checksum different!" />
+<res type="str" lang="en-us" name="CONF_CHECKSUM_SUCCESS" value="config checksum equally!" />
+<res type="str" lang="en-us" name="CODE_CHECKSUM_FAIL" value="code checksum different!" />
+<res type="str" lang="en-us" name="CODE_CHECKSUM_SUCCESS" value="code checksum equally!" />  
+<res type="str" lang="en-us" name="OPTION_CHECKSUM_FAIL" value="option checksum different!" />
+<res type="str" lang="en-us" name="OPTION_CHECKSUM_SUCCESS" value="option checksum equally!" />  
+  
+<res type="str" lang="en-us" name="DEV_PRE_READ_OR_IMPORT" value="Please import the data file first!" />
+<res type="str" lang="en-us" name="DEV_ONLINE_EVENT" value="Device on line，connected。" />
+<res type="str" lang="en-us" name="DEV_OFFLINE_EVENT" value="Device off line，disconnected" />
+
+<res type="str" lang="en-us" name="ERROR_0" value="Commmand excuted success!" />
+<res type="str" lang="en-us" name="ERROR_1" value="Async code error!" />
+<res type="str" lang="en-us" name="ERROR_2" value="Data crc error!" />
+<res type="str" lang="en-us" name="ERROR_3" value="Data frame id error!" />
+<res type="str" lang="en-us" name="ERROR_4" value="Command type error!" />
+<res type="str" lang="en-us" name="ERROR_5" value="Pack length error!" />
+<res type="str" lang="en-us" name="ERROR_6" value="R/W Flash error!" />
+<res type="str" lang="en-us" name="ERROR_7" value="Chip response error!" />
+
+<res type="str" lang="en-us" name="ERROR_1001" value="Serial port no ready!" />
+<res type="str" lang="en-us" name="ERROR_1002" value="Send data error!" />
+<res type="str" lang="en-us" name="ERROR_1003" value="Command response error!" />
+<res type="str" lang="en-us" name="ERROR_1004" value="Receive data crc error!" />
+<res type="str" lang="en-us" name="ERROR_1005" value="User cancel!" />
+<res type="str" lang="en-us" name="ERROR_1006" value="Create pack error!" />
+<res type="str" lang="en-us" name="ERROR_1007" value="Request param error!" />
+<res type="str" lang="en-us" name="ERROR_1008" value="Function not support!" />
+<res type="str" lang="en-us" name="ERROR_1009" value="Read burn option failed" />
+<res type="str" lang="en-us" name="ERROR_1010" value="The target chip type does not match the current engineering chip type!" />
+
+</root>

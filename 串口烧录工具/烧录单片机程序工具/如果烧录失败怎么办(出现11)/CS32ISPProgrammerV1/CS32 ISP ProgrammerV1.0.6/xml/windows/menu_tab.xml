@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<menu title="Menu" width="140" item-height="30" framesize="30" left="30" frame-width="3" bkimg="skin:IDB_MENU_BACK" >
+	<menuitem name="item-tab-data" title="[MENU_TAB_DATA]" />
+</menu>

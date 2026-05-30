@@ -1,0 +1,17 @@
+Log file created at: 2024/11/23 20:23:19  PID: 58296
+Running on machine: LAPTOP-6CFLJLGA
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1123 20:23:19.263196 55840 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], version: V1.0.1 
+ 
+Log file created at: 2024/11/23 20:24:27  PID: 47352
+Running on machine: LAPTOP-6CFLJLGA
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1123 20:24:27.016126 52716 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], version: V1.0.1 
+ 
+I1123 20:26:20.095911 52716 UniOneDebugToolDlg.cpp:957] in function[CUniOneDebugToolDlg::StartBurn], opening Serial Port 3 
+I1123 20:26:20.099908 52716 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], COM put_setting 921600, N, 8, 1 port:3 
+ 
+I1123 20:26:27.169728 55976 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], COM3 XmodermSendFile detected CCC, start send file 
+ 
+I1123 20:26:27.169728 55976 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], COM3 ReadSendFile C:\Users\lenovo\Desktop\jx_su_03t_release_update.bin m_iTransferTimes finished 1201 
+ 

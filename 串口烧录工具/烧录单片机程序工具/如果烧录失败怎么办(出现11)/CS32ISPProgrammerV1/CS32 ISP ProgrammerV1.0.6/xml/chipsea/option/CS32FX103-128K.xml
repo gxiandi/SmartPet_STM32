@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<config>
+
+	<option name="Option" caption="Option" addr="0x1FFFF800" size="16">
+		<item name="read_out_protection" caption="Read Out Protection" addr="0x1FFFF800" size="1" descript="Read protection option byte. The read protection is used to protect the software code stored in Flash memory" >
+			<item name="rdp" caption="RDP" list="1" index="0" descript="This read protection helps the user protect the software code stored in flash memory.">
+				<item name="Read protection disable" value="0xA5" />
+				<item name="Read protection enable" value="0xFF" />
+			</item>
+		</item>
+		
+		<item name="user_configuration" caption="User Configuration" addr="0x1FFFF802" mask="0x00000070" size="1" >
+			<item name="WDG_SW" caption="WDG_SW" sbit="0" ebit="0" list="1" index="1" descript="">
+				<item name="Hardware watchdog" value="0" />
+				<item name="Software watchdog" value="1" />
+			</item>
+			
+			<item name="nRST_STOP" caption="nRST_STOP" sbit="1" ebit="1" list="1" index="1" descript="Enable :Reset generated when entering Stop mode\nDisable:No reset generated">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+
+			<item name="nRST_STDBY" caption="nRST_STDBY" sbit="2" ebit="2" list="1" index="1" descript="Enable :Reset generated when entering Standby mode\nDisable:No reset generated">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+		</item>	
+		
+		<item name="user_data" caption="User Data">
+			<item name="Data0" caption="Data0" addr="0x1FFFF804" size="1" value="0xFF" maxlen="4" hex="1" edit="1" descript="" />
+			<item name="Data1" caption="Data1" addr="0x1FFFF806" size="1" value="0xFF" maxlen="4" hex="1" edit="1" descript="" />
+		</item>	
+		
+		<item name="WRP0" caption="WRP0" addr="0x1FFFF808" size="1">
+			<item name="Page0-Page3" caption="Page0-Page3" sbit="0" ebit="0" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page4-Page7" caption="Page4-Page7" sbit="1" ebit="1" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page8-Page11" caption="Page8-Page11" sbit="2" ebit="2" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page12-Page15" caption="Page12-Page15" sbit="3" ebit="3" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page16-Page19" caption="Page16-Page19" sbit="4" ebit="4" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page20-Page23" caption="Page20-Page23" sbit="5" ebit="5" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page24-Page27" caption="Page24-Page27" sbit="6" ebit="6" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page28-Page31" caption="Page28-Page31" sbit="7" ebit="7" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+		</item>	
+		
+		<item name="WRP1" caption="WRP1" addr="0x1FFFF80A" size="1">
+			<item name="Page32-Page35" caption="Page32-Page35" sbit="0" ebit="0" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page36-Page39" caption="Page36-Page39" sbit="1" ebit="1" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page40-Page43" caption="Page40-Page43" sbit="2" ebit="2" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page44-Page47" caption="Page44-Page47" sbit="3" ebit="3" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page48-Page51" caption="Page48-Page51" sbit="4" ebit="4" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page52-Page55" caption="Page52-Page55" sbit="5" ebit="5" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page56-Page59" caption="Page56-Page59" sbit="6" ebit="6" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page60-Page63" caption="Page60-Page63" sbit="7" ebit="7" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+		</item>	
+		
+		<item name="WRP2" caption="WRP2" addr="0x1FFFF80C" size="1">
+			<item name="Page64-Page67" caption="Page64-Page67" sbit="0" ebit="0" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page68-Page71" caption="Page68-Page71" sbit="1" ebit="1" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page72-Page75" caption="Page72-Page75" sbit="2" ebit="2" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page76-Page79" caption="Page76-Page79" sbit="3" ebit="3" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page80-Page83" caption="Page80-Page83" sbit="4" ebit="4" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page84-Page87" caption="Page84-Page87" sbit="5" ebit="5" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page88-Page91" caption="Page88-Page91" sbit="6" ebit="6" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page92-Page95" caption="Page92-Page95" sbit="7" ebit="7" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+		</item>	
+		
+		<item name="WRP3" caption="WRP3" addr="0x1FFFF80E" size="1">
+			<item name="Page96-Page99" caption="Page96-Page99" sbit="0" ebit="0" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page100-Page103" caption="Page100-Page103" sbit="1" ebit="1" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page104-Page107" caption="Page104-Page107" sbit="2" ebit="2" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page108-Page111" caption="Page108-Page111" sbit="3" ebit="3" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page112-Page115" caption="Page112-Page115" sbit="4" ebit="4" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page116-Page119" caption="Page116-Page119" sbit="5" ebit="5" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page120-Page123" caption="Page120-Page123" sbit="6" ebit="6" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page124-Page127" caption="Page124-Page127" sbit="7" ebit="7" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+		</item>	
+		
+	</option>
+	
+</config>

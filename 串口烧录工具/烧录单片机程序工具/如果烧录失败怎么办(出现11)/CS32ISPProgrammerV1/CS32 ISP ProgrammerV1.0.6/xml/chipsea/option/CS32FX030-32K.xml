@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<config >
+
+	<option name="Option" caption="Option" addr="0x1FFFF800" size="16">
+		<item name="read_out_protection" caption="Read Out Protection" addr="0x1FFFF800" size="1" descript="Read protection option byte. The read protection is used to protect the software code stored in Flash memory" >
+			<item name="rdp" caption="RDP" list="1" index="0" descript="Level 0: no protection\nLevel 1: read protection of memories\nLevel 2: chip protection">
+				<item name="Level 0" value="170" />
+				<item name="Level 1" value="187" />
+				<item name="Level 2" value="204" />
+			</item>
+		</item>
+		
+		<item name="user_configuration" caption="User Configuration" addr="0x1FFFF802" size="1" >
+			<item name="WDG_SW" caption="WDG_SW" sbit="0" ebit="0" list="1" index="1" descript="">
+				<item name="Hardware watchdog" value="0" />
+				<item name="Software watchdog" value="1" />
+			</item>
+			
+			<item name="nRST_STOP" caption="nRST_STOP" sbit="1" ebit="1" list="1" index="1" descript="Enable :Reset generated when entering Stop mode\nDisable:No reset generated">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+
+			<item name="nRST_STDBY" caption="nRST_STDBY" sbit="2" ebit="2" list="1" index="1" descript="Enable :Reset generated when entering Standby mode\nDisable:No reset generated">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+
+			<item name="nBOOT1" caption="nBOOT1" sbit="4" ebit="4" list="3" index="1" descript="">
+				<item name="Boot From SRAM" value="0" />
+				<item name="Boot From FLASH" value="1" />
+			</item>
+
+			<item name="VDDA_MONITOR" caption="VDDA_MONITOR" sbit="5" ebit="5" list="1" index="1" descript="Enable :VDDA power supply supervisor enabled\nDisable:VDDA power supply supervisor disabled">
+				<item name="Disable" value="0" />
+				<item name="Enable" value="1" />
+			</item>
+
+			<item name="RAM_PARITY" caption="RAM_PARITY" sbit="6" ebit="6" list="1" index="1" descript="Enable :RAM parity check enabled\nDisable:RAM parity check disabled">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+		</item>	
+		
+		<item name="user_data" caption="User Data">
+			<item name="Data0" caption="Data0" addr="0x1FFFF804" size="1" value="0xFF" maxlen="4" hex="1" edit="1" index="0" descript="" />
+			<item name="Data1" caption="Data1" addr="0x1FFFF806" size="1" value="0xFF" maxlen="4" hex="1" edit="1" index="0" descript="" />
+		</item>	
+		
+		<item name="write_protection" caption="Write Protection" addr="0x1FFFF808" size="4">
+			<item name="Page0-Page3" caption="Page0-Page3" sbit="0" ebit="0" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page4-Page7" caption="Page4-Page7" sbit="1" ebit="1" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page8-Page11" caption="Page8-Page11" sbit="2" ebit="2" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page12-Page15" caption="Page12-Page15" sbit="3" ebit="3" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page16-Page19" caption="Page16-Page19" sbit="4" ebit="4" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page20-Page23" caption="Page20-Page23" sbit="5" ebit="5" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page24-Page27" caption="Page24-Page27" sbit="6" ebit="6" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			
+			<item name="Page28-Page31" caption="Page28-Page31" sbit="7" ebit="7" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+		</item>	
+		
+	</option>
+	
+</config>

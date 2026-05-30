@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<config>
+
+	<option name="Option" caption="Option" addr="0x1FFFC000" fill="0xFF" size="16">
+	
+		<item name="rdp_config" caption="RDP" addr="0x1FFFC001" size="1" descript="Chip protection option byte. The read protection is used to protect the software code stored in Flash memory" >
+			<item name="rdp" caption="RDP_LEVEL" list="1" index="0" descript="This read protection helps the user protect the software code stored in flash memory.">
+				<item name="Level0 (UnProtection)" value="0xAA" />
+				<item name="Level1 (Disable Debug)"  value="0xBB" />
+				<item name="Level2 (Chip Protection)"  value="0xCC" />
+			</item>
+		</item>
+		
+		<item name="user_config" caption="USER" addr="0x1FFFC000" size="1" descript="BOR reset level" >
+			<item name="bor_lev" caption="BOR_LEVEL" sbit="2" ebit="3" list="1" index="0" descript="These bits contain the supply voltage threshold needed to release the reset signal. By writing to these bits,New Bor-level values can be programmed into Flash">
+				<item name="Level0 (Disable)" value="0x03" />
+				<item name="Level1 (VBOR1)"   value="0x02" />
+				<item name="Level2 (VBOR2)"   value="0x01" />
+				<item name="Level3 (VBOR3)"   value="0x00" />
+			</item>
+			<item name="wdg_sw" caption="WDG_SW" sbit="5" ebit="5" list="1" index="0" descript="System watchdog Setting">
+				<item name="Hardware Watchdog"   value="0x00" />
+				<item name="Software Watchdog"   value="0x01" />
+			</item>
+			<item name="nrst_stop" caption="nRST_STOP" sbit="6" ebit="6" list="1" index="0" descript="System reset Setting">
+				<item name="No Reset"   value="0x01" />
+				<item name="Stop Mode Triggers Reset"   value="0x00" />
+			</item>
+			<item name="nrst_stdby" caption="nRST_STDBY" sbit="7" ebit="7" list="1" index="0" descript="System standby Setting">
+				<item name="No Reset"   value="0x01" />
+				<item name="Standby Mode Triggers Reset"   value="0x00" />
+			</item>
+		</item>
+		
+		<item name="WRP0" caption="WRP0" addr="0x1FFFC008" size="2" >
+			<item name="sector0" caption="Sector0" sbit="0" ebit="0" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="sector1" caption="Sector1" sbit="1" ebit="1" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="sector2" caption="Sector2" sbit="2" ebit="2" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="sector3" caption="Sector3" sbit="3" ebit="3" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="sector4" caption="Sector4" sbit="4" ebit="4" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="sector5" caption="Sector5" sbit="5" ebit="5" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="sector6" caption="Sector6" sbit="6" ebit="6" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="sector7" caption="Sector7" sbit="7" ebit="7" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="sector8" caption="Sector8" sbit="8" ebit="8" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="sector9" caption="Sector9" sbit="9" ebit="9" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="sector10" caption="Sector10" sbit="10" ebit="10" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+			<item name="sector11" caption="Sector11" sbit="11" ebit="11" list="1" index="1" descript="Enable :Write protection active on this sector\nDisable:Write protection not active on this sector">
+				<item name="Enable" value="0" />
+				<item name="Disable" value="1" />
+			</item>
+		</item>	
+		
+	</option>
+	
+</config>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dlg name="dlg_process" title="[DIALOG_PROCESSING]" width="340" height="100" appwin="1" resize="0"
+	translucent="255" frame="" crbk="000000"
+	img-shadow="skins\default\winback_shadow.png" shadow-wlt="36" shadow-hlt="34" shadow-wrb="36" shadow-hrb="35">
+	
+	<base>
+		<imgbtn name="button.close" pos="-45,0,-0,29" skin="IDB_BT_CLOSE" show="1"/>
+		<text name="title" crtext="FFFFFF" crmark="800000" font="big"
+				pos="10,4,200,25" title="[DIALOG_PROCESSING]" response="0" show="1" />
+	</base>
+    
+	<body>
+		<area pos="1,26,-1,-41" color="FFFFFF"  begin-transparent="0" end-transparent="0"/>
+        <progress name="ProgressCtrl" pos="1,26,-1,-40" skin="IDB_PROGRESS" value="0" show-text="1" crtext="000000" title="[DIALOG_PROCESS]:" show="1"  />
+		<area pos="1,-40,-1,-1" color="FFFFFF"  begin-transparent="60" end-transparent="80"/>
+		<button name="button.cancel" skin="IDB_BT_DEFAULT" title="[CANCEL]"	pos="130,-36,210,-6" showfocus="0" show="1" />	
+	</body>
+  
+</dlg>

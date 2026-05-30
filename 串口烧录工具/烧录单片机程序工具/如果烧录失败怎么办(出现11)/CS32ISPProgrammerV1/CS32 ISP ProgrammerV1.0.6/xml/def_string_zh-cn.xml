@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+<!--字体资源-->
+<res type="font" lang="zh-cn" name="title" font="微软雅黑" size="12" bold="true" />
+<res type="font" lang="zh-cn" name="title" font="Tahoma" size="11" bold="true" os="winxp" />
+<res type="font" lang="zh-cn" name="default" font="微软雅黑" size="12" bold="false" />
+<res type="font" lang="zh-cn" name="default" font="Tahoma" size="11" bold="false" os="winxp" />
+<res type="font" lang="zh-cn" name="bold" font="微软雅黑" size="12" bold="true" />
+<res type="font" lang="zh-cn" name="bold" font="Tahoma" size="11" bold="true" os="winxp" />
+<res type="font" lang="zh-cn" name="big" font="微软雅黑" size="14" bold="true" italic="false" underline="false" strikeout="false" />
+<res type="font" lang="zh-cn" name="big" font="Tahoma" size="12" bold="true" italic="false" underline="false" strikeout="false" os="winxp" />
+<res type="font" lang="zh-cn" name="bigbig" font="微软雅黑" size="18" />
+<res type="font" lang="zh-cn" name="bigbig" font="Tahoma" size="17" os="winxp" />
+<res type="font" lang="zh-cn" name="italic" font="微软雅黑" size="12" bold="false" italic="true" />
+<res type="font" lang="zh-cn" name="italic" font="Tahoma" size="11" bold="false" italic="true" os="winxp" />
+<res type="font" lang="zh-cn" name="underline" font="微软雅黑" size="12" bold="false" underline="true" />
+<res type="font" lang="zh-cn" name="underline" font="Tahoma" size="11" bold="false" underline="true" os="winxp" />
+<res type="font" lang="zh-cn" name="strikeout" font="微软雅黑" size="12" bold="false" strikeout="true" />
+<res type="font" lang="zh-cn" name="strikeout" font="Tahoma" size="11" bold="false" strikeout="true" os="winxp" />
+
+<!--中文字符串资源-->
+<res type="str" lang="zh-cn" name="TEST" value="测试" />
+<res type="str" lang="zh-cn" name="homepage" value="file://html/start/index-cn.html" />
+<res type="str" lang="zh-cn" name="APP_NAME" value="CS32 ISP Programmer" />
+<res type="str" lang="zh-cn" name="APP_VER" value="1.0.6" />
+<res type="str" lang="zh-cn" name="OK" value="确  定" />
+<res type="str" lang="zh-cn" name="CANCEL" value="取  消" />
+<res type="str" lang="zh-cn" name="BurnButton" value="烧  录" />
+<res type="str" lang="zh-cn" name="SaveButton" value="保  存" />
+<res type="str" lang="zh-cn" name="ExcuteButton" value="执  行" />
+<res type="str" lang="zh-cn" name="YES" value="是" />
+<res type="str" lang="zh-cn" name="NO" value="否" />
+<res type="str" lang="zh-cn" name="NoLimit" value="无限次" />
+<res type="str" lang="zh-cn" name="NoSetting" value="未设置" />
+<res type="str" lang="zh-cn" name="Ready" value="状态 : 已经就绪" />
+<res type="str" lang="zh-cn" name="Lang_Chinese" value="中文" />
+<res type="str" lang="zh-cn" name="Lang_English" value="英文" />
+<res type="str" lang="zh-cn" name="Check_Update" value="官网更新" />
+<res type="str" lang="zh-cn" name="About" value="关于" />
+<res type="str" lang="zh-cn" name="MessageBoxTitle" value="系统消息" />
+<res type="str" lang="zh-cn" name="ChangeLanguageNotify" value="切换语言需要重新启动软件，是否立即重启？" />
+<res type="str" lang="zh-cn" name="Skin" value="皮肤" />
+<res type="str" lang="zh-cn" name="Close" value="关闭" />
+<res type="str" lang="zh-cn" name="ShowLog" value="显示日志" />
+<res type="str" lang="zh-cn" name="Max" value="最大化" />
+<res type="str" lang="zh-cn" name="Min" value="最小化" />
+<res type="str" lang="zh-cn" name="Menu" value="菜单" />
+<res type="str" lang="zh-cn" name="New" value="新  建" />
+<res type="str" lang="zh-cn" name="Open" value="打  开" />
+<res type="str" lang="zh-cn" name="Save" value="保  存" />
+<res type="str" lang="zh-cn" name="Saveas" value="另  存" />
+<res type="str" lang="zh-cn" name="Query" value="读取配置" />
+<res type="str" lang="zh-cn" name="Config" value="下载配置" />
+<res type="str" lang="zh-cn" name="Download" value="下载代码" />
+<res type="str" lang="zh-cn" name="Burnoption" value="下载选项" />
+<res type="str" lang="zh-cn" name="BurnoptionDlg" value="脱机烧录选项" />
+<res type="str" lang="zh-cn" name="Checksum" value="校验码" />
+<res type="str" lang="zh-cn" name="ChecksumTool" value="校验工具" />
+<res type="str" lang="zh-cn" name="FWDownload" value="更新固件" />
+<res type="str" lang="zh-cn" name="ExportHex" value="导  出" />
+<res type="str" lang="zh-cn" name="StartPage" value="开始页面" />
+<res type="str" lang="zh-cn" name="BaseConfigure" value="基本配置" />
+<res type="str" lang="zh-cn" name="ReadHexData" value="数据读取" />
+<res type="str" lang="zh-cn" name="ChecksumList" value="校验信息" />
+<res type="str" lang="zh-cn" name="UserManual" value="帮助手册" />
+<res type="str" lang="zh-cn" name="LogMessage" value="日志消息" />
+<res type="str" lang="zh-cn" name="ImportConf" value="导入配置" />
+<res type="str" lang="zh-cn" name="Clear" value="清空" />
+<res type="str" lang="zh-cn" name="Saves" value="保存" />
+<res type="str" lang="zh-cn" name="ClearLog" value="清空日志" />
+<res type="str" lang="zh-cn" name="SaveLog" value="保存日志" />
+<res type="str" lang="zh-cn" name="Chip" value="芯片" />
+<res type="str" lang="zh-cn" name="Tool" value="工具" />
+<res type="str" lang="zh-cn" name="Name" value="名称" />
+<res type="str" lang="zh-cn" name="Add" value="添加" />
+<res type="str" lang="zh-cn" name="Del" value="删除" />
+<res type="str" lang="zh-cn" name="Conf" value="配置" />
+<res type="str" lang="zh-cn" name="Edit" value="修改" />
+<res type="str" lang="zh-cn" name="Waiting" value="正在执行中..." />
+<res type="str" lang="zh-cn" name="Setting" value="代码选项" />
+<res type="str" lang="zh-cn" name="Help" value="帮助文档" />
+<res type="str" lang="zh-cn" name="NewProject" value="新建工程" />
+<res type="str" lang="zh-cn" name="SoftName" value="上位机" />
+<res type="str" lang="zh-cn" name="ToolName" value="工具" />
+<res type="str" lang="zh-cn" name="ChipName" value="芯片" />
+<res type="str" lang="zh-cn" name="ADDRESS" value="地址" />
+<res type="str" lang="zh-cn" name="CODE_CHECKSUM" value="代码区校验码" />
+<res type="str" lang="zh-cn" name="CONF_CHECKSUM" value="配置区校验码" />
+<res type="str" lang="zh-cn" name="CODE_SIZE" value="代码区长度" />
+<res type="str" lang="zh-cn" name="CONF_SIZE" value="配置区长度" />
+<res type="str" lang="zh-cn" name="OPTION_SIZE" value="选项区长度" />
+<res type="str" lang="zh-cn" name="CHIP_TYPE_ID" value="芯片类型ID" />
+<res type="str" lang="zh-cn" name="FUNC_TYPE_ID" value="芯片功能ID" />
+<res type="str" lang="zh-cn" name="SELECT_ADDRESS" value="选择地址" />
+<res type="str" lang="zh-cn" name="TYPE" value="类型" />
+<res type="str" lang="zh-cn" name="SELECT_OPERATOR_TYPE" value="选择类型" />
+<res type="str" lang="zh-cn" name="SELECT_EXPORT_HEX" value="导出烧录文件" />
+<res type="str" lang="zh-cn" name="ReadTool" value="读取工具" />
+<res type="str" lang="zh-cn" name="ReadChip" value="读取芯片" />
+<res type="str" lang="zh-cn" name="WriteTool" value="写入工具" />
+<res type="str" lang="zh-cn" name="WriteChip" value="写入芯片" />
+<res type="str" lang="zh-cn" name="ToolFlash" value="工具Flash" />
+<res type="str" lang="zh-cn" name="ChipFlash" value="芯片Flash" />
+<res type="str" lang="zh-cn" name="CodeArea" value="代码区域" />
+<res type="str" lang="zh-cn" name="ConfArea" value="配置区域" />
+<res type="str" lang="zh-cn" name="OptionArea" value="选项区域" />
+<res type="str" lang="zh-cn" name="DeviceList" value="设备列表" />
+<res type="str" lang="zh-cn" name="UpdateCodeArea" value="更新代码区域" />
+<res type="str" lang="zh-cn" name="UpdateConfArea" value="更新配置区域" />
+<res type="str" lang="zh-cn" name="CodeAreaSize" value="代码区域长度" />
+<res type="str" lang="zh-cn" name="ConfAreaSize" value="配置区域长度" />
+<res type="str" lang="zh-cn" name="ConfOptionSize" value="选项区域长度" />
+
+<res type="str" lang="zh-cn" name="BurnNoLimit" value="最大烧录次数：不限" />
+<res type="str" lang="zh-cn" name="BurnIDNoSetting" value="当前滚动码：未设置" />
+<res type="str" lang="zh-cn" name="CurrBurnID" value="当前滚动码" />
+<res type="str" lang="zh-cn" name="BurnCount" value="最大烧录次数" />
+<res type="str" lang="zh-cn" name="BurnCurrCount" value="已烧次数" />
+<res type="str" lang="zh-cn" name="BurnFailCount" value="失败次数" />
+<res type="str" lang="zh-cn" name="BurnSuccessCount" value="成功次数" />
+
+<res type="str" lang="zh-cn" name="Import" value="导入" />
+<res type="str" lang="zh-cn" name="Export" value="导出" />
+<res type="str" lang="zh-cn" name="Goto" value="定位地址" />
+<res type="str" lang="zh-cn" name="ExportPath" value="存储路径" />
+<res type="str" lang="zh-cn" name="Dev-Status" value="设备状态: " />
+<res type="str" lang="zh-cn" name="Dev-None" value="没有发现可用的串口" />
+<res type="str" lang="zh-cn" name="Dev-Disconnect" value="%s打开失败" />
+<res type="str" lang="zh-cn" name="Dev-Connected" value="%s已连接" />
+<res type="str" lang="zh-cn" name="ReadFileError" value="读取文件错误:%s" />
+<res type="str" lang="zh-cn" name="WriteFileError" value="写入文件错误:%s" />
+<res type="str" lang="zh-cn" name="DecodeFileError" value="解密文件失败:%s" />
+<res type="str" lang="zh-cn" name="DecodeFileCRCError" value="解密文件CRC错误:%s" />
+<res type="str" lang="zh-cn" name="DecodeFileLengthError" value="文件校验错误，数据长度大于64K:%s" />
+<res type="str" lang="zh-cn" name="OpenComPortError" value="打开端口失败!" />
+<res type="str" lang="zh-cn" name="SaveNotify" value="是否保存当前工程配置?" />
+<res type="str" lang="zh-cn" name="NewNotify" value="请先新建或打开工程!" />
+<res type="str" lang="zh-cn" name="Param" value="参数" />
+<res type="str" lang="zh-cn" name="Value" value="值" />
+<res type="str" lang="zh-cn" name="BURN_OPTION" value="脱机烧录选项" />
+<res type="str" lang="zh-cn" name="SELECT_DEVICE" value="选择设备类型" />
+<res type="str" lang="zh-cn" name="SELECT_DEVICE_TYPE" value="选择设备类型:" />
+<res type="str" lang="zh-cn" name="MAXMIN_Value_Notify" value="此项有效值的范围为: " />
+<res type="str" lang="zh-cn" name="SELECT_SERIAL_PORT" value="串口配置" />
+<res type="str" lang="zh-cn" name="UPDATE_ITEMS" value="更新记录" />
+<res type="str" lang="zh-cn" name="SELECT_PORT" value="串口" />
+<res type="str" lang="zh-cn" name="SELECT_PORT_BAUDRATE" value="波特率" />
+<res type="str" lang="zh-cn" name="SELECT_PORT_DATABIT" value="数据位" />
+<res type="str" lang="zh-cn" name="SELECT_PORT_PARITY" value="检验位" />
+<res type="str" lang="zh-cn" name="SELECT_PORT_STOPBIT" value="停止位" />
+<res type="str" lang="zh-cn" name="SELECT_PORT_NOTREADY" value="串口未打开！" />
+<res type="str" lang="zh-cn" name="None" value="无" />
+<res type="str" lang="zh-cn" name="Odd" value="奇" />
+<res type="str" lang="zh-cn" name="Even" value="偶" />
+<res type="str" lang="zh-cn" name="Read" value="读取" />
+<res type="str" lang="zh-cn" name="Write" value="写入" />
+
+<res type="str" lang="zh-cn" name="LogLevel" value="日志级别：" />
+<res type="str" lang="zh-cn" name="Level1" value="级别1" />
+<res type="str" lang="zh-cn" name="Level2" value="级别2" />
+<res type="str" lang="zh-cn" name="Excute" value="执行" />
+<res type="str" lang="zh-cn" name="Success" value="成功" />
+<res type="str" lang="zh-cn" name="Fail" value="失败" />
+<res type="str" lang="zh-cn" name="Complete" value="完成" />
+
+<res type="str" lang="zh-cn" name="FILE_PATH_INVALID" value="请先设置文件路径!" />
+<res type="str" lang="zh-cn" name="MUST_SELECT_TYPE" value="请选择一种烧录区域类型!" />
+<res type="str" lang="zh-cn" name="FILE_NOT_EXIST" value="文件不存在!" />
+
+<res type="str" lang="zh-cn" name="BURNPROJ_NOT_SUPPORT_IMPORT" value="烧录工程为只读，不允许导入配置!" />
+<res type="str" lang="zh-cn" name="FILE_INVALID_DATA" value="烧录文件无效，请重新选择烧录文件!" />
+<res type="str" lang="zh-cn" name="FILE_SIZE_TOOL_BIG" value="烧录文件太大，请重新选择烧录文件!" />
+<res type="str" lang="zh-cn" name="READ_OUTOF_MAX_SIZE" value="读取数据长度太大，请重新设置!" />
+<res type="str" lang="zh-cn" name="EXPORT_FILE_PATH_INVALID" value="请先设置导出文件路径!" />
+<res type="str" lang="zh-cn" name="CODE_FILE_PATH_INVALID" value="请先设置程序文件路径!" />
+<res type="str" lang="zh-cn" name="CODE_FILE_NOT_EXIST" value="程序文件不存在!" />
+<res type="str" lang="zh-cn" name="CODE_FILE_NOT_DATA" value="程序文件中没有可下载的数据!" />
+
+<res type="str" lang="zh-cn" name="FILE_EXIST_MESSAGE" value="%s已经存在，要替换它吗？" />
+<res type="str" lang="zh-cn" name="SELECT_PASSWORD" value="密码" />
+<res type="str" lang="zh-cn" name="PASSWORD_ERROR" value="密码输入错误，请重新输入!" />
+<res type="str" lang="zh-cn" name="SELECT_DIALOG_PASSWORD" value="输入密码" />
+<res type="str" lang="zh-cn" name="DIALOG_PROCESS" value="已完成" />
+<res type="str" lang="zh-cn" name="DIALOG_PROCESSING" value="命令处理中..." />
+<res type="str" lang="zh-cn" name="COMMAND_RESPONSE_ERROR" value="命令应答错误!" />
+<res type="str" lang="zh-cn" name="COMMAND_NORESPONSE" value="下位机无响应!" />
+<res type="str" lang="zh-cn" name="CloseTaskMessage" value="当前有任务正在执行，是否要停止所有任务？" />
+
+<res type="str" lang="zh-cn" name="COMMAND_UNKNOWN_REQ" value="发送未知请求" />
+<res type="str" lang="zh-cn" name="COMMAND_READ_TOOL_CONFIG_REQ" value="发送读取工具配置信息请求" />
+<res type="str" lang="zh-cn" name="COMMAND_WRITE_TOOL_CONFIG_REQ" value="发送烧录工具配置信息请求" />
+<res type="str" lang="zh-cn" name="COMMAND_WRITE_TOOL_CODE_REQ" value="发送烧录工具用户代码请求" />
+<res type="str" lang="zh-cn" name="COMMAND_READ_CHIP_CONFIG_REQ" value="发送读取芯片配置信息请求" />
+<res type="str" lang="zh-cn" name="COMMAND_WRITE_CHIP_CONFIG_REQ" value="发送烧录芯片配置信息请求" />
+<res type="str" lang="zh-cn" name="COMMAND_WRITE_CHIP_CODE_REQ" value="发送烧录芯片用户代码请求" />
+<res type="str" lang="zh-cn" name="COMMAND_FIREWARE_UPDATE_REQ" value="发送更新固件程序请求" />
+
+<res type="str" lang="zh-cn" name="COMMAND_READ_TOOL_CODE_FLASH_REQ" value="发送读取工具代码区请求" />
+<res type="str" lang="zh-cn" name="COMMAND_READ_CHIP_CODE_FLASH_REQ" value="发送读取芯片代码区请求" />
+<res type="str" lang="zh-cn" name="COMMAND_WRITE_TOOL_CODE_FLASH_REQ" value="发送写入工具代码区请求" />
+<res type="str" lang="zh-cn" name="COMMAND_WRITE_CHIP_CODE_FLASH_REQ" value="发送写入芯片代码区请求" />
+
+<res type="str" lang="zh-cn" name="COMMAND_READ_TOOL_CONF_FLASH_REQ" value="发送读取工具配置区请求" />
+<res type="str" lang="zh-cn" name="COMMAND_READ_CHIP_CONF_FLASH_REQ" value="发送读取芯片配置区请求" />
+<res type="str" lang="zh-cn" name="COMMAND_WRITE_TOOL_CONF_FLASH_REQ" value="发送写入工具配置区请求" />
+<res type="str" lang="zh-cn" name="COMMAND_WRITE_CHIP_CONF_FLASH_REQ" value="发送写入芯片配置区请求" />
+
+<res type="str" lang="zh-cn" name="COMMAND_READ_TOOL_OPTION_FLASH_REQ" value="发送读取工具选项区请求" />
+<res type="str" lang="zh-cn" name="COMMAND_READ_CHIP_OPTION_FLASH_REQ" value="发送读取芯片选项区请求" />
+<res type="str" lang="zh-cn" name="COMMAND_WRITE_TOOL_OPTION_FLASH_REQ" value="发送写入工具选项区请求" />
+<res type="str" lang="zh-cn" name="COMMAND_WRITE_CHIP_OPTION_FLASH_REQ" value="发送写入芯片选项区请求" />
+
+<res type="str" lang="zh-cn" name="COMMAND_READ_BURN_CONF_REQ" value="发送烧录选项请求" />
+<res type="str" lang="zh-cn" name="COMMAND_WRITE_BURN_CONF_REQ" value="发送写入烧录选项请求" />
+<res type="str" lang="zh-cn" name="COMMAND_READ_CHECK_REQ" value="发送配置区校验请求" />
+<res type="str" lang="zh-cn" name="COMMAND_READ_TOOL_INFO_REQ" value="发送工具信息区请求" />
+<res type="str" lang="zh-cn" name="COMMAND_READ_CHIP_INFO_REQ" value="发送芯片信息区请求" />
+
+<res type="str" lang="zh-cn" name="Program" value="烧录程序" />
+<res type="str" lang="zh-cn" name="Download" value="烧录程序" />
+<res type="str" lang="zh-cn" name="Erase" value="擦除数据" />
+<res type="str" lang="zh-cn" name="Option" value="烧录选项" />
+<res type="str" lang="zh-cn" name="Export" value="导  出" />
+<res type="str" lang="zh-cn" name="ExportFile" value="导出烧录文件" />
+
+<res type="str" lang="zh-cn" name="DownOption" value="烧录配置" />
+<res type="str" lang="zh-cn" name="BurnOption" value="烧录配置" />
+<res type="str" lang="zh-cn" name="BurnNumber" value="滚动码配置" />
+<res type="str" lang="zh-cn" name="CodeOption" value="代码选项" />
+<res type="str" lang="zh-cn" name="BurnInfo" value="烧录信息" />
+<res type="str" lang="zh-cn" name="BurnExport" value="导出文件" />
+
+<res type="str" lang="zh-cn" name="SOFTWARE_VERSION" value="软件版本" />
+<res type="str" lang="zh-cn" name="HARDWARE_VERSION" value="硬件版本" />
+<res type="str" lang="zh-cn" name="PROG_CHECKSUM" value="代码区校验码" />
+<res type="str" lang="zh-cn" name="DATA_CHECKSUM" value="配置区校验码" />
+<res type="str" lang="zh-cn" name="OPTION_CHECKSUM" value="选项区校验码" />
+<res type="str" lang="zh-cn" name="CHIPSEA_VID" value="芯海VID" />
+<res type="str" lang="zh-cn" name="CHIPSEA_CODE" value="芯海编码" />
+<res type="str" lang="zh-cn" name="PROJECT_CODE" value="项目编码" />
+<res type="str" lang="zh-cn" name="CHIP_TYPE" value="芯片类型" />
+<res type="str" lang="zh-cn" name="CHIP_TYPE_ID" value="芯片类型ID" />
+<res type="str" lang="zh-cn" name="FUNC_TYPE" value="功能类型" />
+<res type="str" lang="zh-cn" name="FUNC_TYPE_ID" value="功能类型ID" />
+<res type="str" lang="zh-cn" name="EXPORT_OK" value="导出烧录文件完成!" />
+
+<res type="str" lang="zh-cn" name="PC_CONF_CHECKSUM" value="上位机配置区校验码" />
+<res type="str" lang="zh-cn" name="ARM_CONF_CHECKSUM" value="下位机配置区校验码" />
+<res type="str" lang="zh-cn" name="PC_CODE_CHECKSUM" value="上位机代码区校验码" />
+<res type="str" lang="zh-cn" name="ARM_CODE_CHECKSUM" value="下位机代码区校验码" />
+<res type="str" lang="zh-cn" name="PC_OPTION_CHECKSUM" value="上位机选项区校验码" />
+<res type="str" lang="zh-cn" name="ARM_OPTION_CHECKSUM" value="下位机选项区校验码" />
+
+<res type="str" lang="zh-cn" name="CONF_CHECKSUM_FAIL" value="配置区校验码不一致!" />
+<res type="str" lang="zh-cn" name="CONF_CHECKSUM_SUCCESS" value="配置区校验码一致!" />
+<res type="str" lang="zh-cn" name="CODE_CHECKSUM_FAIL" value="代码区校验码不一致!" />
+<res type="str" lang="zh-cn" name="CODE_CHECKSUM_SUCCESS" value="代码区校验码一致!" />
+<res type="str" lang="zh-cn" name="OPTION_CHECKSUM_FAIL" value="选项区校验码不一致!" />
+<res type="str" lang="zh-cn" name="OPTION_CHECKSUM_SUCCESS" value="选项区校验码一致!" />
+
+<res type="str" lang="zh-cn" name="CHIP_TYPE_NOT_FIND" value="型号信息不存在，请重新选择其他型号操作!" />
+<res type="str" lang="zh-cn" name="DEV_PRE_READ_OR_IMPORT" value="请先导入数据文件，再进行操作!" />
+<res type="str" lang="zh-cn" name="DEV_ONLINE_EVENT" value="设备连接成功" />
+<res type="str" lang="zh-cn" name="DEV_OFFLINE_EVENT" value="设备断开连接" />
+
+<res type="str" lang="zh-cn" name="DEV_LIST_COLUMN1" value="" />
+<res type="str" lang="zh-cn" name="DEV_LIST_COLUMN2" value="设备名称" />
+<res type="str" lang="zh-cn" name="DEV_LIST_COLUMN3" value="设备状态" />
+<res type="str" lang="zh-cn" name="DEV_LIST_COLUMN4" value="任务状态" />
+<res type="str" lang="zh-cn" name="DEV_LIST_COLUMN5" value="当前进度" />
+<res type="str" lang="zh-cn" name="DEV_LIST_COLUMN6" value="读取代码选项" />
+
+<res type="str" lang="zh-cn" name="ERASE_LIST_COLUMN1" value="" />
+<res type="str" lang="zh-cn" name="ERASE_LIST_COLUMN2" value="名称" />
+<res type="str" lang="zh-cn" name="ERASE_LIST_COLUMN3" value="地址" />
+<res type="str" lang="zh-cn" name="ERASE_LIST_COLUMN4" value="大小(字节)" />
+
+
+<res type="str" lang="zh-cn" name="IDC_STATIC_DEVID" value="设备名称:" />
+<res type="str" lang="zh-cn" name="IDC_STATIC_DATA_ALIGN" value="数据对齐:" />
+<res type="str" lang="zh-cn" name="IDC_BUTTON_IMPORT" value="导入文件" />
+<res type="str" lang="zh-cn" name="IDC_STATIC_DATA_ADDRESS" value="数据地址:" />
+<res type="str" lang="zh-cn" name="IDC_STATIC_DATA_SIZE" value="数据长度:" />
+<res type="str" lang="zh-cn" name="IDC_BUTTON_READ" value="读取" />
+<res type="str" lang="zh-cn" name="IDC_BUTTON_EXPORT" value="导出" />
+<res type="str" lang="zh-cn" name="MENU_TAB_DATA" value="新建数据读取页" />
+
+<res type="str" lang="zh-cn" name="DataSize" value="数据长度" />
+<res type="str" lang="zh-cn" name="Data" value="数据" />
+<res type="str" lang="zh-cn" name="READONLY" value="只读" />
+<res type="str" lang="zh-cn" name="COPYID" value="复制" />
+<res type="str" lang="zh-cn" name="EXPORT_FILE_OK" value="导出文件完成！" />
+<res type="str" lang="zh-cn" name="EXPORT_FILE_ERROR" value="导出文件失败！" />
+<res type="str" lang="zh-cn" name="WARNING_NO_TAB_SHOW" value="数据读取页最多显示4个！" />
+<res type="str" lang="zh-cn" name="ONLY_ONE_INSTANCE" value="当前应用程序只允许运行一个实例" />
+<res type="str" lang="zh-cn" name="LIMIT_COUNT_MUST_FILL" value="烧录次数必须填写有效值！" />
+<res type="str" lang="zh-cn" name="LIMIT_PCID_MUST_FILL" value="烧录主机序列号必须填写！" />
+<res type="str" lang="zh-cn" name="SID_ADDR_MUST_FILL" value="滚动码地址必须填写！" />
+<res type="str" lang="zh-cn" name="SID_START_MUST_FILL" value="滚动码开始值必须填写！" />
+<res type="str" lang="zh-cn" name="SID_STEP_MUST_FILL" value="滚动码步进值必须填写！" />
+<res type="str" lang="zh-cn" name="IMPORT_PROJECT_OK" value="导入工程文件成功!" />
+
+<res type="str" lang="zh-cn" name="ALIGN_0" value="1 字节" />
+<res type="str" lang="zh-cn" name="ALIGN_1" value="2 字节" />
+<res type="str" lang="zh-cn" name="ALIGN_2" value="4 字节" />
+
+<res type="str" lang="zh-cn" name="DEV_STATE_0" value="未连接" />
+<res type="str" lang="zh-cn" name="DEV_STATE_1" value="已连接" />
+
+<res type="str" lang="zh-cn" name="RUNAT" value="正在" />
+<res type="str" lang="zh-cn" name="RUNNING" value="正在执行" />
+<res type="str" lang="zh-cn" name="RUN_STATE_0" value="设备空闲" />
+<res type="str" lang="zh-cn" name="RUN_STATE_1" value="正在执行烧录命令" />
+<res type="str" lang="zh-cn" name="RUN_STATE_2" value="正在执行擦除命令" />
+<res type="str" lang="zh-cn" name="RUN_STATE_3" value="正在执行读取数据命令" />
+<res type="str" lang="zh-cn" name="RUN_STATE_4" value="正在执行配置命令" />
+<res type="str" lang="zh-cn" name="RUN_STATE_5" value="正在执行自动烧录命令" />
+
+<res type="str" lang="zh-cn" name="COMMAND_1" value="烧录命令" />
+<res type="str" lang="zh-cn" name="COMMAND_2" value="擦除命令" />
+<res type="str" lang="zh-cn" name="COMMAND_3" value="读取命令" />
+<res type="str" lang="zh-cn" name="COMMAND_4" value="配置命令" />
+<res type="str" lang="zh-cn" name="COMMAND_5" value="自动烧录命令" />
+<res type="str" lang="zh-cn" name="COMMAND_6" value="读取芯片信息命令" />
+
+<res type="str" lang="zh-cn" name="NOTIFY_0" value="请先勾选擦除项!" />
+<res type="str" lang="zh-cn" name="NOTIFY_1" value="已存在, 要替换它吗？" />
+<res type="str" lang="zh-cn" name="NOTIFY_2" value="请先设置工程文件路径!" />
+<res type="str" lang="zh-cn" name="NOTIFY_3" value="请先打开串口设备!" />
+<res type="str" lang="zh-cn" name="NOTIFY_4" value="请先新建或打开工程!" />
+<res type="str" lang="zh-cn" name="NOTIFY_5" value="当前型号不支持代码选项区操作!" />
+
+<res type="str" lang="zh-cn" name="ERROR_0" value="命令完成" />
+<res type="str" lang="zh-cn" name="ERROR_1" value="用户取消了操作" />
+<res type="str" lang="zh-cn" name="ERROR_-1" value="读数据失败" />
+<res type="str" lang="zh-cn" name="ERROR_-2" value="写数据失败" />
+<res type="str" lang="zh-cn" name="ERROR_-3" value="命令数据错误" />
+<res type="str" lang="zh-cn" name="ERROR_-4" value="不支持的命令" />
+<res type="str" lang="zh-cn" name="ERROR_-5" value="数据校验失败" />
+<res type="str" lang="zh-cn" name="ERROR_-6" value="设备不可用" />
+<res type="str" lang="zh-cn" name="ERROR_-7" value="设备正忙，请稍候再试" />
+<res type="str" lang="zh-cn" name="ERROR_-8" value="设备握手失败" />
+<res type="str" lang="zh-cn" name="ERROR_-9" value="操作被设备拒绝" />
+<res type="str" lang="zh-cn" name="ERROR_-10" value="设备禁止写入，已经设置为允许，请重新插拔设备再试" />
+<res type="str" lang="zh-cn" name="ERROR_-11" value="烧录次数已经到最大值" />
+<res type="str" lang="zh-cn" name="ERROR_-12" value="烧录滚动码已经到最大值" />
+<res type="str" lang="zh-cn" name="ERROR_-13" value="烧录文件太大，请重新选择烧录文件!" />
+<res type="str" lang="zh-cn" name="ERROR_-14" value="烧录文件中没有数据，请重新选择烧录文件!" />
+
+<res type="str" lang="zh-cn" name="ERROR_NEW" value="创建工程失败!" />
+<res type="str" lang="zh-cn" name="ERROR_OPEN" value="打开工程失败!" />
+<res type="str" lang="zh-cn" name="ERROR_BUSY" value="设备正忙，请稍候再试!" />
+<res type="str" lang="zh-cn" name="ERROR_PC_LIMIT" value="当前主机无权限打开此工程!" />
+<res type="str" lang="zh-cn" name="ERROR_IMPORT_PROJECT" value="导入工程文件失败!" />
+<res type="str" lang="zh-cn" name="INVALID_PROJECT_FILE" value="无效的工程文件，请重新选择工程文件!" />
+
+<res type="str" lang="zh-cn" name="ERROR_1001" value="串口未准备好!" />
+<res type="str" lang="zh-cn" name="ERROR_1002" value="发送数据错误!" />
+<res type="str" lang="zh-cn" name="ERROR_1003" value="下位机无响应!" />
+<res type="str" lang="zh-cn" name="ERROR_1004" value="接收数据CRC错误!" />
+<res type="str" lang="zh-cn" name="ERROR_1005" value="用户取消了操作!" />
+<res type="str" lang="zh-cn" name="ERROR_1006" value="创建数据包错误!" />
+<res type="str" lang="zh-cn" name="ERROR_1007" value="请求参数错误!" />
+<res type="str" lang="zh-cn" name="ERROR_1008" value="功能暂时不支持!" />
+<res type="str" lang="zh-cn" name="ERROR_1009" value="读取烧录选项失败" />
+<res type="str" lang="zh-cn" name="ERROR_1010" value="目标芯片和当前工程类型不匹配!" />
+
+<res type="str" lang="zh-cn" name="LOG_STATUS_1" value="开始执行" />
+<res type="str" lang="zh-cn" name="LOG_STATUS_2" value="正在执行" />
+<res type="str" lang="zh-cn" name="LOG_STATUS_3" value="成功" />
+<res type="str" lang="zh-cn" name="LOG_STATUS_4" value="失败" />
+
+<res type="str" lang="zh-cn" name="LOG_TYPE_-5" value="自动烧录命令" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_-4" value="配置命令" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_-3" value="读取命令" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_-2" value="擦除命令" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_-1" value="烧录命令" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_1" value="读取数据" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_2" value="写入数据" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_3" value="擦除数据" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_4" value="写入选项" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_5" value="读取选项" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_6" value="写入滚动码" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_7" value="取消保护" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_8" value="校验数据" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_9" value="等待ACK帧" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_10" value="执行运行指令" />
+<res type="str" lang="zh-cn" name="LOG_TYPE_11" value="写入数据" />
+
+
+</root>

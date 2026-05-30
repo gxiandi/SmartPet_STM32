@@ -1,0 +1,19 @@
+# 过滤编译生成文件
+*.crf
+*.d
+*.o
+*.axf
+*.bin
+*.hex
+*.elf
+output/
+
+# 过滤大视频文件
+*.mp4
+*.avi
+*.mov
+
+# 过滤IDE配置文件
+*.uvguix.*
+*.uvoptx
+*.uvprojx.bak
