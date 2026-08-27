@@ -5,7 +5,7 @@
 项目涵盖 STM32 外设驱动、多串口通信、状态机调度、模块化架构设计，是嵌入式软硬件协同开发的综合实践。
 
 ## 项目演示视频
-- 视频链接：[点击查看完整演示](https://pan.baidu.com/s/1xtMtqQh_gdGOdR0kzxm_vQ)
+- 视频链接：[点击查看完整演示](https://pan.baidu.com/s/1xtMtqQh_gdGOdR0kzxm_vQ?pwd=1234)
 - 提取码：1234
 - 
 ## 硬件清单
